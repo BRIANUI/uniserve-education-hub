@@ -1,21 +1,30 @@
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import capturedCSS from "../styles/pages/events.css?raw";
 
 export const Route = createFileRoute("/events")({
-  head: () => ({ meta: [{ title: "Events | Uniserv Education" }] }),
+  head: () => ({ meta: [{ title: "Study Abroad Events | Uniserv Education" }, { name: "description", content: "Find university visits, information sessions, and study-abroad events with Uniserv Education." }, { property: "og:title", content: "Study Abroad Events | Uniserv Education" }, { property: "og:description", content: "Find university visits, information sessions, and study-abroad events with Uniserv Education." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }),
   staticData: { importedDocument: { html: { "lang": "en" }, body: {  } } },
   component: Index,
 });
 
 function Index() {
+  const [counsellorOpen, setCounsellorOpen] = useState(false);
+  const counsellorDialogRef = useRef<HTMLDialogElement | null>(null);
+  const openCounsellor = () => setCounsellorOpen(true);
+  useEffect(() => {
+    const dialog = counsellorDialogRef.current;
+    if (!dialog) return;
+    if (counsellorOpen && !dialog.open) dialog.showModal();
+    if (!counsellorOpen && dialog.open) dialog.close();
+  }, [counsellorOpen]);
   useImportedLayout();
   return (
     <>
       <style>{capturedCSS}</style>
       <div id="app">
         <div>
-          <ImportedHeader />
+          <ImportedHeader currentPath="/events" onOpenCounsellor={openCounsellor} />
           <main data-v-0a5b9278="">
             <ImportedSectionMeetUsAskQuestions />
             <ImportedSectionAlreadyUnderwayAndYou />
@@ -28,22 +37,22 @@ function Index() {
                   <h2 className="text-3xl font-bold leading-[1.15] tracking-tight text-white text-balance sm:text-4xl" data-v-0a5b9278=""> Not sure which event is right for you? </h2>
                   <p className={"mt-6 text-lg leading-relaxed \x74ext-white/\x370"} data-v-0a5b9278=""> Events are one way to learn. A counsellor can help you understand your options, prepare for applications and identify university routes worth investigating further. </p>
                   <div className={"mt-9 flex flex-col items-center justify-center gap-3 \x73m:\x66lex-row"} data-v-0a5b9278="">
-                    <button className={"btn btn-primary min-h-0 \x62order-0 px-8 py-3.5 text-base font-semibold transition-colors duration-150 hover:bg-accent \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary"} data-v-0a5b9278="" type="button"> Talk to a counsellor </button>
+                    <button className={"btn btn-primary min-h-0 \x62order-0 px-8 py-3.5 text-base font-semibold transition-colors duration-150 hover:bg-accent \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary"} data-v-0a5b9278="" type="button" onClick={openCounsellor}> Talk to a counsellor </button>
                     <a className={"btn min-h-0 \x62order \x62order-white/\x330 bg-transparent px-8 py-3.5 text-base font-semibold text-white transition-colors duration-150 \x68over:\x62order-white hover:bg-white hover:text-neutral \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary"} data-v-0a5b9278="" href="/find-your-options"> Find my university options </a>
                   </div>
                 </div>
               </div>
             </section>
           </main>
-          <ImportedFooterStudyAbroad />
-          <dialog className="counsellor-dialog" data-v-c6d60915="" role="dialog" aria-modal="true" aria-labelledby="counsellor-modal-title">
+          <ImportedFooterStudyAbroad onOpenCounsellor={openCounsellor} />
+          <dialog ref={counsellorDialogRef} onCancel={() => setCounsellorOpen(false)} onClose={() => setCounsellorOpen(false)} onClick={event => { if (event.target === event.currentTarget) setCounsellorOpen(false); }} className="counsellor-dialog" data-v-c6d60915="" role="dialog" aria-modal="true" aria-labelledby="counsellor-modal-title">
             <div className="flex max-h-[90vh] flex-col rounded-box bg-base-100" data-v-c6d60915="">
               <div className={"flex items-center justify-between gap-4 \x62order-b \x62order-secondary/\x320 px-6 py-4 sm:px-8"} data-v-c6d60915="">
                 <div data-v-c6d60915="">
                   <h2 className="text-xl font-bold tracking-tight text-base-content" data-v-c6d60915="" id="counsellor-modal-title"> Find your university options </h2>
                   <p className={"mt-1 text-sm \x74ext-neutral/\x370"} data-v-c6d60915=""> Tell us about your plans and we'll help identify options worth exploring. </p>
                 </div>
-                <button className={"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary"} data-v-c6d60915="" type="button" aria-label="Close">
+                <button className={"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary"} onClick={() => setCounsellorOpen(false)} data-v-c6d60915="" type="button" aria-label="Close">
                   <svg className="h-6 w-6" data-v-c6d60915="" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path data-v-c6d60915="" d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
                   </svg>
@@ -111,42 +120,45 @@ function Index() {
   );
 }
 
-function ImportedHeader() {
+function ImportedHeader({ currentPath, onOpenCounsellor }: { currentPath: string; onOpenCounsellor: () => void }) {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const links = [
+    { path: "/destinations", label: "Study Abroad" },
+    { path: "/universities", label: "University Partners" },
+    { path: "/events", label: "Events" },
+    { path: "/about", label: "About Us" },
+  ];
   return (
-    <header className={"sticky top-0 z-40 \x62order-b \x62order-secondary/\x320 \x62g-base-100/\x330"} data-v-9790ec4b="" data-site-import-scroll-header={"{\"desktop\":{\"added\":[\"shadow-[0_6px_24px_-18px_rgba(26,26,26,0.45)]\"],\"removed\":[],\"threshold\":648},\"mobile\":{\"added\":[\"shadow-[0_6px_24px_-18px_rgba(26,26,26,0.45)]\"],\"removed\":[],\"threshold\":633}}"}>
+    <header className="sticky top-0 z-40 border-b border-secondary/20 bg-base-100/95" data-v-9790ec4b="" data-site-import-scroll-header={"{\"desktop\":{\"added\":[\"shadow-[0_6px_24px_-18px_rgba(26,26,26,0.45)]\"],\"removed\":[],\"threshold\":648},\"mobile\":{\"added\":[\"shadow-[0_6px_24px_-18px_rgba(26,26,26,0.45)]\"],\"removed\":[],\"threshold\":633}}"}>
       <div className="mx-auto flex h-16 max-w-7xl items-center px-6 sm:px-8 lg:h-[4.5rem]" data-v-9790ec4b="">
-        <a className={"shrink-0 rounded-field transition-opacity duration-150 hover:opacity-80 \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary"} aria-label="Uniserv Education — home" data-v-9790ec4b="" href="/">
+        <a className="shrink-0 rounded-field transition-opacity duration-150 hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary" aria-current={currentPath === "/" ? "page" : undefined} aria-label="Uniserv Education — home" data-v-9790ec4b="" href="/">
           <img className="h-8 w-auto lg:h-9" data-v-9790ec4b="" src="/site-assets/00bf6ad4619775b2.png" alt="Uniserv Education" />
         </a>
-        <nav className={"hidden flex-1 justify-center \x6cg:\x66lex"} data-v-9790ec4b="" aria-label="Primary">
+        <nav className="hidden flex-1 justify-center lg:flex" data-v-9790ec4b="" aria-label="Primary">
           <ul className="flex items-center gap-1 xl:gap-2" data-v-9790ec4b="">
-            <li data-v-9790ec4b="">
-              <a className="nav-link" data-v-9790ec4b="" href="/destinations">Study Abroad</a>
-            </li>
-            <li data-v-9790ec4b="">
-              <a className="nav-link" data-v-9790ec4b="" href="/universities">University Partners</a>
-            </li>
-            <li data-v-9790ec4b="">
-              <a className="nav-link nav-link--active" aria-current="page" data-v-9790ec4b="" href="#">Events</a>
-            </li>
-            <li data-v-9790ec4b="">
-              <a className="nav-link" data-v-9790ec4b="" href="/about">About Us</a>
-            </li>
+            {links.map(link => <li key={link.path} data-v-9790ec4b=""><a className={currentPath === link.path ? "nav-link nav-link--active" : "nav-link"} aria-current={currentPath === link.path ? "page" : undefined} data-v-9790ec4b="" href={link.path}>{link.label}</a></li>)}
           </ul>
         </nav>
-        <div className={"hidden \x6cg:\x62lock"} data-v-9790ec4b="">
-          <button className={"btn btn-primary min-h-0 \x62order-0 px-5 py-2.5 text-sm font-semibold transition-colors duration-150 hover:bg-accent \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary"} data-v-9790ec4b="" type="button"> Talk to a counsellor </button>
+        <div className="hidden lg:block" data-v-9790ec4b="">
+          <button className="btn btn-primary min-h-0 border-0 px-5 py-2.5 text-sm font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary" data-v-9790ec4b="" type="button" onClick={onOpenCounsellor}>Talk to a counsellor</button>
         </div>
-        <button className={"btn btn-ghost ml-auto h-11 min-h-0 w-11 \x62order-0 p-0 \x6cg:\x68idden"} data-v-9790ec4b="" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu">
+        <button className="btn btn-ghost ml-auto h-11 min-h-0 w-11 border-0 p-0 lg:hidden" data-v-9790ec4b="" type="button" onClick={() => setMobileMenuOpen(open => !open)} onKeyDown={event => { if (event.key === "Escape") setMobileMenuOpen(false); }} aria-expanded={mobileMenuOpen} aria-controls="mobile-menu" aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}>
           <svg className="h-6 w-6" data-v-9790ec4b="" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path data-v-9790ec4b="" d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+            {mobileMenuOpen ? <path data-v-9790ec4b="" d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /> : <path data-v-9790ec4b="" d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />}
           </svg>
         </button>
+      </div>
+      <div id="mobile-menu" className="lg:hidden" data-v-9790ec4b="" hidden={!mobileMenuOpen}>
+        <nav className="border-t border-secondary/20 bg-base-100 px-6 pb-6 pt-2 sm:px-8" data-v-9790ec4b="" aria-label="Mobile" onKeyDown={event => { if (event.key === "Escape") setMobileMenuOpen(false); }}>
+          <ul className="flex flex-col" data-v-9790ec4b="">
+            {links.map(link => <li key={link.path} data-v-9790ec4b=""><a className={currentPath === link.path ? "mobile-link mobile-link--active" : "mobile-link"} aria-current={currentPath === link.path ? "page" : undefined} data-v-9790ec4b="" href={link.path} onClick={() => setMobileMenuOpen(false)}>{link.label}</a></li>)}
+          </ul>
+          <button className="btn btn-primary mt-4 min-h-0 w-full border-0 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary" data-v-9790ec4b="" type="button" onClick={() => { setMobileMenuOpen(false); onOpenCounsellor(); }}>Talk to a counsellor</button>
+        </nav>
       </div>
     </header>
   );
 }
-
 function ImportedSectionMeetUsAskQuestions() {
   return (
     <section className="relative overflow-hidden bg-base-100" data-v-0a5b9278="">
@@ -656,7 +668,7 @@ function ImportedSectionEarlierSessionsAndVisits() {
   );
 }
 
-function ImportedFooterStudyAbroad() {
+function ImportedFooterStudyAbroad({ onOpenCounsellor }: { onOpenCounsellor: () => void }) {
   return (
     <footer className={"\x62g-[#\x3171717]"}>
       <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 lg:py-20">
@@ -666,7 +678,7 @@ function ImportedFooterStudyAbroad() {
               <img className="h-9 w-auto" src="/site-assets/00bf6ad4619775b2.png" alt="Uniserv Education" loading="lazy" />
             </a>
             <p className={"mt-5 leading-relaxed \x74ext-white/\x370"}>Master Your Own Destiny</p>
-            <button className={"mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary hover:text-accent"} type="button"> Talk to a counsellor <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg></button>
+            <button className={"mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary hover:text-accent"} type="button" onClick={onOpenCounsellor}> Talk to a counsellor <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg></button>
           </div>
           <nav aria-label="Study Abroad">
             <h2 className={"text-xs font-semibold uppercase tracking-[0.2em] \x74ext-white/\x350"}>Study Abroad</h2>
