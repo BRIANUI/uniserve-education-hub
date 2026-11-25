@@ -1,0 +1,269 @@
+[
+  {
+    "route": "/",
+    "mobile_navigation": {
+      "status": "passed",
+      "beforeAria": "false",
+      "afterAria": "true",
+      "headerChanged": true,
+      "panels": [
+        {
+          "tag": "DIV",
+          "id": "mobile-menu",
+          "text": "Study Abroad\nUniversity Partners\nEvents\nAbout Us\nTalk to a counsellor",
+          "html": "<div data-v-9790ec4b=\"\" id=\"mobile-menu\" class=\"lg:hidden\"><nav data-v-9790ec4b=\"\" class=\"border-t border-secondary/20 bg-base-100 px-6 pb-6 pt-2 sm:px-8\" aria-label=\"Mobile\"><ul data-v-9790ec4b=\"\" class=\"flex flex-col\"><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/destinations\" class=\"mobile-link\">Study Abroad</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/universities\" class=\"mobile-link\">University Partners</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/events\" class=\"mobile-link\">Events</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/about\" class=\"mobile-link\">About Us</a></li></ul><button data-v-9790ec4b=\"\" type=\"button\" class=\"btn btn-primary mt-4 min-h-0 w-full border-0 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Talk to a counsellor </button></nav></div>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "Study Abroad\nUniversity Partners\nEvents\nAbout Us\nTalk to a counsellor",
+          "html": "<nav data-v-9790ec4b=\"\" class=\"border-t border-secondary/20 bg-base-100 px-6 pb-6 pt-2 sm:px-8\" aria-label=\"Mobile\"><ul data-v-9790ec4b=\"\" class=\"flex flex-col\"><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/destinations\" class=\"mobile-link\">Study Abroad</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/universities\" class=\"mobile-link\">University Partners</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/events\" class=\"mobile-link\">Events</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/about\" class=\"mobile-link\">About Us</a></li></ul><button data-v-9790ec4b=\"\" type=\"button\" class=\"btn btn-primary mt-4 min-h-0 w-full border-0 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Talk to a counsellor </button></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "STUDY ABROAD\nExplore destinations\nUniversity partners",
+          "html": "<nav aria-label=\"Study Abroad\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">Study Abroad</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/destinations\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Explore destinations</a></li><li><a href=\"/universities\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">University partners</a></li></ul></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "HOW WE HELP\nOur services\nEvents\nTalk to a counsellor",
+          "html": "<nav aria-label=\"How We Help\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">How We Help</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/services\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Our services</a></li><li><a href=\"/events\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Events</a></li><li><a href=\"/contact\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Talk to a counsellor</a></li></ul></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "UNISERV\nAbout us\nOur partners\nContact\nPrivacy policy",
+          "html": "<nav aria-label=\"Uniserv\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">Uniserv</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/about\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">About us</a></li><li><a href=\"/partners\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Our partners</a></li><li><a href=\"/contact\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Contact</a></li><li><a href=\"/privacy-policy\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Privacy policy</a></li></ul></nav>"
+        }
+      ],
+      "screenshot": "/tmp/browser/uniserv/source-controls/home-phone-menu.png"
+    }
+  },
+  {
+    "route": "/destinations",
+    "mobile_navigation": {
+      "status": "passed",
+      "beforeAria": "false",
+      "afterAria": "true",
+      "headerChanged": true,
+      "panels": [
+        {
+          "tag": "DIV",
+          "id": "mobile-menu",
+          "text": "Study Abroad\nUniversity Partners\nEvents\nAbout Us\nTalk to a counsellor",
+          "html": "<div data-v-9790ec4b=\"\" id=\"mobile-menu\" class=\"lg:hidden mobile-menu-enter-active mobile-menu-enter-to\"><nav data-v-9790ec4b=\"\" class=\"border-t border-secondary/20 bg-base-100 px-6 pb-6 pt-2 sm:px-8\" aria-label=\"Mobile\"><ul data-v-9790ec4b=\"\" class=\"flex flex-col\"><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" aria-current=\"page\" href=\"/destinations\" class=\"router-link-active router-link-exact-active mobile-link mobile-link--active\">Study Abroad</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/universities\" class=\"mobile-link\">University Partners</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/events\" class=\"mobile-link\">Events</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/about\" class=\"mobile-link\">About Us</a></li></ul><button data-v-9790ec4b=\"\" type=\"button\" class=\"btn btn-primary mt-4 min-h-0 w-full border-0 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Talk to a counsellor </button></nav></div>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "Study Abroad\nUniversity Partners\nEvents\nAbout Us\nTalk to a counsellor",
+          "html": "<nav data-v-9790ec4b=\"\" class=\"border-t border-secondary/20 bg-base-100 px-6 pb-6 pt-2 sm:px-8\" aria-label=\"Mobile\"><ul data-v-9790ec4b=\"\" class=\"flex flex-col\"><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" aria-current=\"page\" href=\"/destinations\" class=\"router-link-active router-link-exact-active mobile-link mobile-link--active\">Study Abroad</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/universities\" class=\"mobile-link\">University Partners</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/events\" class=\"mobile-link\">Events</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/about\" class=\"mobile-link\">About Us</a></li></ul><button data-v-9790ec4b=\"\" type=\"button\" class=\"btn btn-primary mt-4 min-h-0 w-full border-0 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Talk to a counsellor </button></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "STUDY ABROAD\nExplore destinations\nUniversity partners",
+          "html": "<nav aria-label=\"Study Abroad\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">Study Abroad</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/destinations\" class=\"router-link-active router-link-exact-active text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-current=\"page\">Explore destinations</a></li><li><a href=\"/universities\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">University partners</a></li></ul></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "HOW WE HELP\nOur services\nEvents\nTalk to a counsellor",
+          "html": "<nav aria-label=\"How We Help\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">How We Help</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/services\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Our services</a></li><li><a href=\"/events\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Events</a></li><li><a href=\"/contact\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Talk to a counsellor</a></li></ul></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "UNISERV\nAbout us\nOur partners\nContact\nPrivacy policy",
+          "html": "<nav aria-label=\"Uniserv\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">Uniserv</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/about\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">About us</a></li><li><a href=\"/partners\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Our partners</a></li><li><a href=\"/contact\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Contact</a></li><li><a href=\"/privacy-policy\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Privacy policy</a></li></ul></nav>"
+        }
+      ],
+      "screenshot": "/tmp/browser/uniserv/source-controls/destinations-phone-menu.png"
+    }
+  },
+  {
+    "route": "/universities",
+    "mobile_navigation": {
+      "status": "passed",
+      "beforeAria": "false",
+      "afterAria": "true",
+      "headerChanged": true,
+      "panels": [
+        {
+          "tag": "DIV",
+          "id": "mobile-menu",
+          "text": "Study Abroad\nUniversity Partners\nEvents\nAbout Us\nTalk to a counsellor",
+          "html": "<div data-v-9790ec4b=\"\" id=\"mobile-menu\" class=\"lg:hidden mobile-menu-enter-active mobile-menu-enter-to\"><nav data-v-9790ec4b=\"\" class=\"border-t border-secondary/20 bg-base-100 px-6 pb-6 pt-2 sm:px-8\" aria-label=\"Mobile\"><ul data-v-9790ec4b=\"\" class=\"flex flex-col\"><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/destinations\" class=\"mobile-link\">Study Abroad</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" aria-current=\"page\" href=\"/universities\" class=\"router-link-active router-link-exact-active mobile-link mobile-link--active\">University Partners</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/events\" class=\"mobile-link\">Events</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/about\" class=\"mobile-link\">About Us</a></li></ul><button data-v-9790ec4b=\"\" type=\"button\" class=\"btn btn-primary mt-4 min-h-0 w-full border-0 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Talk to a counsellor </button></nav></div>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "Study Abroad\nUniversity Partners\nEvents\nAbout Us\nTalk to a counsellor",
+          "html": "<nav data-v-9790ec4b=\"\" class=\"border-t border-secondary/20 bg-base-100 px-6 pb-6 pt-2 sm:px-8\" aria-label=\"Mobile\"><ul data-v-9790ec4b=\"\" class=\"flex flex-col\"><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/destinations\" class=\"mobile-link\">Study Abroad</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" aria-current=\"page\" href=\"/universities\" class=\"router-link-active router-link-exact-active mobile-link mobile-link--active\">University Partners</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/events\" class=\"mobile-link\">Events</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/about\" class=\"mobile-link\">About Us</a></li></ul><button data-v-9790ec4b=\"\" type=\"button\" class=\"btn btn-primary mt-4 min-h-0 w-full border-0 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Talk to a counsellor </button></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "Previous\nPage 1 of 11\nNext",
+          "html": "<nav data-v-c5db6352=\"\" class=\"mt-12 flex flex-col items-center gap-4\" aria-label=\"University results pages\"><div data-v-c5db6352=\"\" class=\"flex items-center gap-2\"><button data-v-c5db6352=\"\" type=\"button\" class=\"btn min-h-0 border border-secondary bg-transparent px-4 py-2.5 text-sm font-semibold text-neutral transition-colors duration-150 hover:border-neutral hover:bg-neutral hover:text-neutral-content focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:cursor-not-allowed disabled:opacity-40\" disabled=\"\" aria-label=\"Previous page\"> Previous </button><span data-v-c5db6352=\"\" class=\"px-3 text-sm font-medium text-neutral/75\"> Page 1 of 11</span><button data-v-c5db6352=\"\" type=\"button\" class=\"btn min-h-0 border border-secondary bg-transparent px-4 py-2.5 text-sm font-semibold text-neutral transition-colors duration-150 hover:border-neutral hover:bg-neutral hover:text-neutral-content focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:cursor-not-allowed disabled:opacity-40\" aria-label=\"Next page\"> Next </button></div></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "STUDY ABROAD\nExplore destinations\nUniversity partners",
+          "html": "<nav aria-label=\"Study Abroad\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">Study Abroad</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/destinations\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Explore destinations</a></li><li><a href=\"/universities\" class=\"router-link-active router-link-exact-active text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-current=\"page\">University partners</a></li></ul></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "HOW WE HELP\nOur services\nEvents\nTalk to a counsellor",
+          "html": "<nav aria-label=\"How We Help\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">How We Help</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/services\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Our services</a></li><li><a href=\"/events\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Events</a></li><li><a href=\"/contact\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Talk to a counsellor</a></li></ul></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "UNISERV\nAbout us\nOur partners\nContact\nPrivacy policy",
+          "html": "<nav aria-label=\"Uniserv\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">Uniserv</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/about\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">About us</a></li><li><a href=\"/partners\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Our partners</a></li><li><a href=\"/contact\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Contact</a></li><li><a href=\"/privacy-policy\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Privacy policy</a></li></ul></nav>"
+        }
+      ],
+      "screenshot": "/tmp/browser/uniserv/source-controls/universities-phone-menu.png"
+    }
+  },
+  {
+    "route": "/events",
+    "mobile_navigation": {
+      "status": "passed",
+      "beforeAria": "false",
+      "afterAria": "true",
+      "headerChanged": true,
+      "panels": [
+        {
+          "tag": "DIV",
+          "id": "mobile-menu",
+          "text": "Study Abroad\nUniversity Partners\nEvents\nAbout Us\nTalk to a counsellor",
+          "html": "<div data-v-9790ec4b=\"\" id=\"mobile-menu\" class=\"lg:hidden mobile-menu-enter-active mobile-menu-enter-to\"><nav data-v-9790ec4b=\"\" class=\"border-t border-secondary/20 bg-base-100 px-6 pb-6 pt-2 sm:px-8\" aria-label=\"Mobile\"><ul data-v-9790ec4b=\"\" class=\"flex flex-col\"><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/destinations\" class=\"mobile-link\">Study Abroad</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/universities\" class=\"mobile-link\">University Partners</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" aria-current=\"page\" href=\"/events\" class=\"router-link-active router-link-exact-active mobile-link mobile-link--active\">Events</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/about\" class=\"mobile-link\">About Us</a></li></ul><button data-v-9790ec4b=\"\" type=\"button\" class=\"btn btn-primary mt-4 min-h-0 w-full border-0 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Talk to a counsellor </button></nav></div>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "Study Abroad\nUniversity Partners\nEvents\nAbout Us\nTalk to a counsellor",
+          "html": "<nav data-v-9790ec4b=\"\" class=\"border-t border-secondary/20 bg-base-100 px-6 pb-6 pt-2 sm:px-8\" aria-label=\"Mobile\"><ul data-v-9790ec4b=\"\" class=\"flex flex-col\"><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/destinations\" class=\"mobile-link\">Study Abroad</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/universities\" class=\"mobile-link\">University Partners</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" aria-current=\"page\" href=\"/events\" class=\"router-link-active router-link-exact-active mobile-link mobile-link--active\">Events</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/about\" class=\"mobile-link\">About Us</a></li></ul><button data-v-9790ec4b=\"\" type=\"button\" class=\"btn btn-primary mt-4 min-h-0 w-full border-0 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Talk to a counsellor </button></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "STUDY ABROAD\nExplore destinations\nUniversity partners",
+          "html": "<nav aria-label=\"Study Abroad\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">Study Abroad</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/destinations\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Explore destinations</a></li><li><a href=\"/universities\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">University partners</a></li></ul></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "HOW WE HELP\nOur services\nEvents\nTalk to a counsellor",
+          "html": "<nav aria-label=\"How We Help\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">How We Help</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/services\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Our services</a></li><li><a href=\"/events\" class=\"router-link-active router-link-exact-active text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-current=\"page\">Events</a></li><li><a href=\"/contact\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Talk to a counsellor</a></li></ul></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "UNISERV\nAbout us\nOur partners\nContact\nPrivacy policy",
+          "html": "<nav aria-label=\"Uniserv\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">Uniserv</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/about\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">About us</a></li><li><a href=\"/partners\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Our partners</a></li><li><a href=\"/contact\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Contact</a></li><li><a href=\"/privacy-policy\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Privacy policy</a></li></ul></nav>"
+        }
+      ],
+      "screenshot": "/tmp/browser/uniserv/source-controls/events-phone-menu.png"
+    }
+  },
+  {
+    "route": "/about",
+    "mobile_navigation": {
+      "status": "passed",
+      "beforeAria": "false",
+      "afterAria": "true",
+      "headerChanged": true,
+      "panels": [
+        {
+          "tag": "DIV",
+          "id": "mobile-menu",
+          "text": "Study Abroad\nUniversity Partners\nEvents\nAbout Us\nTalk to a counsellor",
+          "html": "<div data-v-9790ec4b=\"\" id=\"mobile-menu\" class=\"lg:hidden mobile-menu-enter-active mobile-menu-enter-to\"><nav data-v-9790ec4b=\"\" class=\"border-t border-secondary/20 bg-base-100 px-6 pb-6 pt-2 sm:px-8\" aria-label=\"Mobile\"><ul data-v-9790ec4b=\"\" class=\"flex flex-col\"><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/destinations\" class=\"mobile-link\">Study Abroad</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/universities\" class=\"mobile-link\">University Partners</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/events\" class=\"mobile-link\">Events</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" aria-current=\"page\" href=\"/about\" class=\"router-link-active router-link-exact-active mobile-link mobile-link--active\">About Us</a></li></ul><button data-v-9790ec4b=\"\" type=\"button\" class=\"btn btn-primary mt-4 min-h-0 w-full border-0 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Talk to a counsellor </button></nav></div>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "Study Abroad\nUniversity Partners\nEvents\nAbout Us\nTalk to a counsellor",
+          "html": "<nav data-v-9790ec4b=\"\" class=\"border-t border-secondary/20 bg-base-100 px-6 pb-6 pt-2 sm:px-8\" aria-label=\"Mobile\"><ul data-v-9790ec4b=\"\" class=\"flex flex-col\"><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/destinations\" class=\"mobile-link\">Study Abroad</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/universities\" class=\"mobile-link\">University Partners</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" href=\"/events\" class=\"mobile-link\">Events</a></li><li data-v-9790ec4b=\"\"><a data-v-9790ec4b=\"\" aria-current=\"page\" href=\"/about\" class=\"router-link-active router-link-exact-active mobile-link mobile-link--active\">About Us</a></li></ul><button data-v-9790ec4b=\"\" type=\"button\" class=\"btn btn-primary mt-4 min-h-0 w-full border-0 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Talk to a counsellor </button></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "STUDY ABROAD\nExplore destinations\nUniversity partners",
+          "html": "<nav aria-label=\"Study Abroad\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">Study Abroad</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/destinations\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Explore destinations</a></li><li><a href=\"/universities\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">University partners</a></li></ul></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "HOW WE HELP\nOur services\nEvents\nTalk to a counsellor",
+          "html": "<nav aria-label=\"How We Help\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">How We Help</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/services\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Our services</a></li><li><a href=\"/events\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Events</a></li><li><a href=\"/contact\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Talk to a counsellor</a></li></ul></nav>"
+        },
+        {
+          "tag": "NAV",
+          "id": "",
+          "text": "UNISERV\nAbout us\nOur partners\nContact\nPrivacy policy",
+          "html": "<nav aria-label=\"Uniserv\"><h2 class=\"text-xs font-semibold uppercase tracking-[0.2em] text-white/50\">Uniserv</h2><ul class=\"mt-5 space-y-3\"><li><a href=\"/about\" class=\"router-link-active router-link-exact-active text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-current=\"page\">About us</a></li><li><a href=\"/partners\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Our partners</a></li><li><a href=\"/contact\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Contact</a></li><li><a href=\"/privacy-policy\" class=\"text-sm font-medium text-white/85 transition-colors duration-150 hover:text-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\">Privacy policy</a></li></ul></nav>"
+        }
+      ],
+      "screenshot": "/tmp/browser/uniserv/source-controls/about-phone-menu.png"
+    }
+  },
+  {
+    "route": "/universities",
+    "search": {
+      "before": {
+        "cards": 24,
+        "counter": "Showing 24 of 260 universities"
+      },
+      "after": {
+        "cards": 1,
+        "counter": "Showing 1 of 1 universities",
+        "first": "Algoma University\nAlgoma University\n\nCanada\n\nMultiple course options\n\nExplore options at Algoma University"
+      },
+      "status": "passed"
+    },
+    "popup": {
+      "status": "passed",
+      "trigger": "Explore options at Algoma University",
+      "text": "Interested in Algoma University?\n\nThis university offers a range of study options, but the courses and entry routes relevant to you will depend on your qualifications, preferred study level, subject interests, budget and intended intake.\n\nTell us more about your plans so we can help narrow the university and course options worth exploring.\n\nFind my university options\nContinue exploring",
+      "html": "<dialog data-v-748569c5=\"\" data-v-c5db6352=\"\" class=\"university-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"university-modal-title\" open=\"\"><div data-v-748569c5=\"\" class=\"rounded-box bg-base-100 p-6 sm:p-8\"><div data-v-748569c5=\"\" class=\"flex items-start justify-between gap-4\"><h2 data-v-748569c5=\"\" id=\"university-modal-title\" class=\"text-2xl font-bold tracking-tight text-base-content\"> Interested in Algoma University? </h2><button data-v-748569c5=\"\" type=\"button\" class=\"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-label=\"Close\"><svg data-v-748569c5=\"\" class=\"h-6 w-6\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path data-v-748569c5=\"\" d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"></path></svg></button></div><p data-v-748569c5=\"\" class=\"mt-5 leading-relaxed text-neutral/75\"> This university offers a range of study options, but the courses and entry routes relevant to you will depend on your qualifications, preferred study level, subject interests, budget and intended intake. </p><p data-v-748569c5=\"\" class=\"mt-4 leading-relaxed text-neutral/75\"> Tell us more about your plans so we can help narrow the university and course options worth exploring. </p><div data-v-748569c5=\"\" class=\"mt-8 flex flex-col gap-3 sm:flex-row sm:items-center\"><button data-v-748569c5=\"\" type=\"button\" class=\"btn btn-primary min-h-0 border-0 px-6 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Find my university options </button><button data-v-748569c5=\"\" type=\"button\" class=\"btn min-h-0 border border-secondary bg-transparent px-6 py-3 text-base font-semibold text-neutral transition-colors duration-150 hover:border-neutral hover:bg-neutral hover:text-neutral-content focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Continue exploring </button></div></div></dialog>",
+      "assets": {
+        "images": [],
+        "fonts": [
+          "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+        ],
+        "backgrounds": [
+          "none, url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E\")"
+        ],
+        "media": []
+      },
+      "screenshot": "/tmp/browser/uniserv/source-controls/universities-desktop-first-popup.png",
+      "dom": "/tmp/browser/uniserv/source-controls/universities-desktop-first-popup.html",
+      "continue_exploring_closed": true,
+      "next_step": {
+        "status": "passed",
+        "text": "Find your university options\n\nTell us about your plans and we'll help identify options worth exploring.\n\nStep 1 of 6\n\nPersonal information\n\nPersonal information\n\nFull name\nEmail address\nPhone or WhatsApp number\nCurrent country of residence\nNationality\nDate of birth\nContinue\nWebsite (do not fill)",
+        "screenshot": "/tmp/browser/uniserv/source-controls/universities-desktop-popup-next.png",
+        "dom": "/tmp/browser/uniserv/source-controls/universities-desktop-popup-next.html",
+        "stopped_before_personal_data": true
+      }
+    }
+  },
+  {
+    "route": "/about",
+    "team_tabs": {
+      "status": "passed",
+      "before": "AE\nAmin Esmail\n\nChief Executive Officer\n\nJK\nJordan Koech\n\nSenior VP of Marketing & Procurement\n\nAW\nAnne Wambugu\n\nVP of Canadian Recruitment",
+      "after": "CM\nChris Muga\n\nRegional Leader\n\nBK\nBethwel Kibet\n\nRegional Leader\n\nLE\nLeticia Epae\n\nRegional Leader\n\nAS\nAlima Sethi\n\nRegional Leader\n\nAF\nAliya Fazal\n\nRegional Leader\n\nIK\nIan Kaayo\n\nRegional Leader\n\nLM\nLinda Maliki\n\nRegional Leader",
+      "pressed": "true",
+      "screenshot": "/tmp/browser/uniserv/source-controls/about-desktop-regional-tab.png"
+    }
+  }
+]

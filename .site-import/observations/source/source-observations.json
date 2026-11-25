@@ -1,0 +1,2464 @@
+[
+  {
+    "route": "/",
+    "layout": "desktop",
+    "url": "https://www.uniserveducation.com",
+    "screenshots": [
+      "/tmp/browser/uniserv/source/home-desktop-top.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-01.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-02.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-03.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-04.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-05.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-06.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-07.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-08.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-09.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-10.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-11.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-12.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-13.png",
+      "/tmp/browser/uniserv/source/home-desktop-scroll-14.png",
+      "/tmp/browser/uniserv/source/home-desktop-returned-top.png"
+    ],
+    "controls": {
+      "hero_cta": {
+        "status": "passed",
+        "trigger": "Talk to a counsellor",
+        "dialog": "<dialog data-v-c6d60915=\"\" class=\"counsellor-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"counsellor-modal-title\" open=\"\"><div data-v-c6d60915=\"\" class=\"flex max-h-[90vh] flex-col rounded-box bg-base-100\"><div data-v-c6d60915=\"\" class=\"flex items-center justify-between gap-4 border-b border-secondary/20 px-6 py-4 sm:px-8\"><div data-v-c6d60915=\"\"><h2 data-v-c6d60915=\"\" id=\"counsellor-modal-title\" class=\"text-xl font-bold tracking-tight text-base-content\"> Find your university options </h2><p data-v-c6d60915=\"\" class=\"mt-1 text-sm text-neutral/70\"> Tell us about your plans and we'll help identify options worth exploring. </p></div><button data-v-c6d60915=\"\" type=\"button\" class=\"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-label=\"Close\"><svg data-v-c6d60915=\"\" class=\"h-6 w-6\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path data-v-c6d60915=\"\" d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"></path></svg></button></div><div data-v-c6d60915=\"\" class=\"overflow-y-auto px-6 py-6 sm:px-8\"><div data-v-9d4a49e6=\"\" data-v-c6d60915=\"\"><div data-v-9d4a49e6=\"\" class=\"rounded-box border border-secondary/25 bg-base-100 p-6 shadow-[0_10px_30px_-22px_rgba(26,26,26,0.35)] lg:p-8\"><div data-v-9d4a49e6=\"\" class=\"mb-8\"><div data-v-9d4a49e6=\"\" class=\"flex items-center justify-between gap-4\"><p data-v-9d4a49e6=\"\" class=\"text-sm font-semibold text-base-content\"> Step 1 of 6</p><p data-v-9d4a49e6=\"\" class=\"text-sm text-neutral/70\">Personal information</p></div><div data-v-9d4a49e6=\"\" class=\"mt-3 flex h-2 overflow-hidden rounded-full bg-base-300\" role=\"progressbar\" aria-valuenow=\"17\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-label=\"Questionnaire progress\"><div data-v-9d4a49e6=\"\" class=\"h-full rounded-full bg-primary transition-all duration-300\" style=\"width: 17%;\"></div></div></div><form data-v-9d4a49e6=\"\" novalidate=\"\"><div data-v-9d4a49e6=\"\" class=\"space-y-6\"><p data-v-9d4a49e6=\"\" class=\"text-lg font-bold tracking-tight text-base-content\">Personal information</p><div data-v-9d4a49e6=\"\" class=\"grid gap-5 sm:grid-cols-2\"><div data-v-9d4a49e6=\"\" class=\"sm:col-span-2\"><label data-v-9d4a49e6=\"\" for=\"fyo-full-name\" class=\"mb-2 block text-sm font-semibold text-base-content\">Full name</label><input data-v-9d4a49e6=\"\" id=\"fyo-full-name\" type=\"text\" autocomplete=\"name\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-email\" class=\"mb-2 block text-sm font-semibold text-base-content\">Email address</label><input data-v-9d4a49e6=\"\" id=\"fyo-email\" type=\"email\" autocomplete=\"email\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-phone\" class=\"mb-2 block text-sm font-semibold text-base-content\">Phone or WhatsApp number</label><input data-v-9d4a49e6=\"\" id=\"fyo-phone\" type=\"tel\" autocomplete=\"tel\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-country\" class=\"mb-2 block text-sm font-semibold text-base-content\">Current country of residence</label><input data-v-9d4a49e6=\"\" id=\"fyo-country\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-nationality\" class=\"mb-2 block text-sm font-semibold text-base-content\">Nationality</label><input data-v-9d4a49e6=\"\" id=\"fyo-nationality\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-dob\" class=\"mb-2 block text-sm font-semibold text-base-content\">Date of birth</label><input data-v-9d4a49e6=\"\" id=\"fyo-dob\" type=\"date\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div></div></div><div data-v-9d4a49e6=\"\" class=\"mt-8 flex items-center justify-between gap-4\"><span data-v-9d4a49e6=\"\"></span><button data-v-9d4a49e6=\"\" type=\"submit\" class=\"btn btn-primary min-h-0 border-0 px-7 py-3.5 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Continue </button></div><div data-v-9d4a49e6=\"\" class=\"mt-6\" aria-hidden=\"true\"><label data-v-9d4a49e6=\"\" class=\"sr-only\" for=\"fyo-website\">Website (do not fill)</label><input data-v-9d4a49e6=\"\" id=\"fyo-website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\" class=\"sr-only\" style=\"\"></div></form></div></div></div></div></dialog>",
+        "assets": {
+          "images": [],
+          "fonts": [
+            "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+          ],
+          "backgrounds": [
+            "none, url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E\")"
+          ],
+          "media": []
+        },
+        "screenshot": "/tmp/browser/uniserv/source/home-desktop-cta-popup.png",
+        "dom": "/tmp/browser/uniserv/source/home-desktop-cta-popup.html",
+        "next_step": "not attempted; stopped before entering personal information or submitting"
+      }
+    },
+    "status": 200,
+    "title": "Uniserv Education",
+    "sections": [
+      {
+        "i": 0,
+        "heading": "A clearer path to studying abroad starts here.",
+        "id": "",
+        "text": "A clearer path to studying abroad starts here.\n\nExplore universities and courses across leading global study destinations, with guidance for every step of the journey.\n\nExplore stu",
+        "images": [
+          "https://www.uniserveducation.com/assets/world-map-muted-z06gPAAu.svg",
+          "https://www.uniserveducation.com/assets/uniserv-big-logo-big-CHAeSuRp.png"
+        ]
+      },
+      {
+        "i": 1,
+        "heading": "Where will your studies take you?",
+        "id": "",
+        "text": "EXPLORE YOUR OPTIONS\n\nWhere will your studies take you?\n\nCompare popular study destinations, explore different university experiences and find an option that fits your goals, quali",
+        "images": [
+          "https://www.uniserveducation.com/assets/uk-B4QSfeBQ.jpg",
+          "https://www.uniserveducation.com/assets/canada-CPt7CQqH.jpg",
+          "https://www.uniserveducation.com/assets/aus-u_Hfohbt.jpg",
+          "https://www.uniserveducation.com/assets/ireland-fMcKXCsN.jpg"
+        ]
+      },
+      {
+        "i": 2,
+        "heading": "Support for every step that needs a clearer answer.",
+        "id": "",
+        "text": "HOW WE HELP\n\nSupport for every step that needs a clearer answer.\n\nFrom comparing courses to preparing for departure, our counsellors help you understand your options and complete e",
+        "images": []
+      },
+      {
+        "i": 3,
+        "heading": "A clearer path from first conversation to departure.",
+        "id": "",
+        "text": "YOUR JOURNEY\n\nA clearer path from first conversation to departure.\n\nEvery application is different, but knowing the main stages makes it easier to prepare for what comes next.\n\n01\n",
+        "images": []
+      },
+      {
+        "i": 4,
+        "heading": "Meet, ask questions and plan your next step.",
+        "id": "",
+        "text": "UPCOMING EVENTS\n\nMeet, ask questions and plan your next step.\n\nJoin university visits, information sessions and study-abroad events designed to help you make more informed decision",
+        "images": [
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/41qk0tm9edqhgpf/plymouth_qtz4yxo6mq.jpg",
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/d7ahtte2463nby8/study_in_canada_2027_intake_qd1x2oms0w.png",
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/jdvkjvl7de1e1s8/georgian_college_yn3x22yd2n.png"
+        ]
+      },
+      {
+        "i": 5,
+        "heading": "Start with the questions that matter.",
+        "id": "",
+        "text": "PRACTICAL GUIDANCE\n\nStart with the questions that matter.\n\nExplore practical guidance for comparing universities, preparing applications and planning for life abroad.\n\nSTUDENT & PA",
+        "images": []
+      },
+      {
+        "i": 6,
+        "heading": "Guidance closer to home.",
+        "id": "",
+        "text": "FIND UNISERV\n\nGuidance closer to home.\n\nConnect with a Uniserv office or speak with a counsellor about your study plans.\n\nTalk to a real team\n\nOffice locations are being confirmed.",
+        "images": []
+      },
+      {
+        "i": 7,
+        "heading": "Ready to explore your study options?",
+        "id": "",
+        "text": "NEXT STEPS\n\nReady to explore your study options?\n\nTell us where you are in your journey, and a counsellor will help you understand the next steps.\n\nStart your enquiry\nFind an offic",
+        "images": []
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.uniserveducation.com/",
+        "aria": "Uniserv Education \u2014 home"
+      },
+      {
+        "text": "Study Abroad",
+        "href": "https://www.uniserveducation.com/destinations",
+        "aria": null
+      },
+      {
+        "text": "University Partners",
+        "href": "https://www.uniserveducation.com/universities",
+        "aria": null
+      },
+      {
+        "text": "Events",
+        "href": "https://www.uniserveducation.com/events",
+        "aria": null
+      },
+      {
+        "text": "About Us",
+        "href": "https://www.uniserveducation.com/about",
+        "aria": null
+      }
+    ],
+    "media": [],
+    "scroll_positions": [
+      {
+        "y": 702,
+        "visible_headings": [
+          "Where will your studies take you?"
+        ]
+      },
+      {
+        "y": 1404,
+        "visible_headings": [
+          "United Kingdom",
+          "Canada"
+        ]
+      },
+      {
+        "y": 1404,
+        "visible_headings": [
+          "Australia",
+          "Ireland",
+          "New Zealand",
+          "United States"
+        ]
+      },
+      {
+        "y": 2106,
+        "visible_headings": [
+          "Ireland",
+          "New Zealand",
+          "United States",
+          "Support for every step that needs a clearer answer.",
+          "Course and university guidance"
+        ]
+      },
+      {
+        "y": 2808,
+        "visible_headings": [
+          "Support for every step that needs a clearer answer.",
+          "Visa guidance",
+          "Accommodation guidance",
+          "Pre-departure support",
+          "A clearer path from first conversation to departure."
+        ]
+      },
+      {
+        "y": 3510,
+        "visible_headings": [
+          "A clearer path from first conversation to departure.",
+          "Discover your options",
+          "Choose your direction",
+          "Prepare your application",
+          "Navigate the next steps"
+        ]
+      },
+      {
+        "y": 4212,
+        "visible_headings": [
+          "Meet, ask questions and plan your next step.",
+          "Study in the UK: University of Plymouth"
+        ]
+      },
+      {
+        "y": 4914,
+        "visible_headings": [
+          "Study in the UK: University of Plymouth"
+        ]
+      },
+      {
+        "y": 5616,
+        "visible_headings": [
+          "Study in Canada - September 2027 Intake",
+          "Study in Canada: Georgian College",
+          "Start with the questions that matter."
+        ]
+      },
+      {
+        "y": 6318,
+        "visible_headings": [
+          "Start with the questions that matter.",
+          "Choosing an education agent with confidence"
+        ]
+      },
+      {
+        "y": 7020,
+        "visible_headings": [
+          "Guidance closer to home.",
+          "Talk to a real team",
+          "Ready to explore your study options?"
+        ]
+      },
+      {
+        "y": 7722,
+        "visible_headings": [
+          "Ready to explore your study options?"
+        ]
+      },
+      {
+        "y": 8424,
+        "visible_headings": [
+          "Ready to explore your study options?"
+        ]
+      },
+      {
+        "y": 8574,
+        "visible_headings": [
+          "Ready to explore your study options?"
+        ]
+      }
+    ],
+    "scroll": {
+      "scrollHeight": 9474,
+      "steps": 14,
+      "bottom_y": 8574
+    }
+  },
+  {
+    "route": "/destinations",
+    "layout": "desktop",
+    "url": "https://www.uniserveducation.com/destinations",
+    "screenshots": [
+      "/tmp/browser/uniserv/source/destinations-desktop-top.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-01.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-02.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-03.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-04.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-05.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-06.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-07.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-08.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-09.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-10.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-11.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-12.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-13.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-14.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-scroll-15.png",
+      "/tmp/browser/uniserv/source/destinations-desktop-returned-top.png"
+    ],
+    "controls": {
+      "hero_cta": {
+        "status": "passed",
+        "trigger": "Talk to a counsellor",
+        "dialog": "<dialog data-v-c6d60915=\"\" class=\"counsellor-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"counsellor-modal-title\" open=\"\"><div data-v-c6d60915=\"\" class=\"flex max-h-[90vh] flex-col rounded-box bg-base-100\"><div data-v-c6d60915=\"\" class=\"flex items-center justify-between gap-4 border-b border-secondary/20 px-6 py-4 sm:px-8\"><div data-v-c6d60915=\"\"><h2 data-v-c6d60915=\"\" id=\"counsellor-modal-title\" class=\"text-xl font-bold tracking-tight text-base-content\"> Find your university options </h2><p data-v-c6d60915=\"\" class=\"mt-1 text-sm text-neutral/70\"> Tell us about your plans and we'll help identify options worth exploring. </p></div><button data-v-c6d60915=\"\" type=\"button\" class=\"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-label=\"Close\"><svg data-v-c6d60915=\"\" class=\"h-6 w-6\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path data-v-c6d60915=\"\" d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"></path></svg></button></div><div data-v-c6d60915=\"\" class=\"overflow-y-auto px-6 py-6 sm:px-8\"><div data-v-9d4a49e6=\"\" data-v-c6d60915=\"\"><div data-v-9d4a49e6=\"\" class=\"rounded-box border border-secondary/25 bg-base-100 p-6 shadow-[0_10px_30px_-22px_rgba(26,26,26,0.35)] lg:p-8\"><div data-v-9d4a49e6=\"\" class=\"mb-8\"><div data-v-9d4a49e6=\"\" class=\"flex items-center justify-between gap-4\"><p data-v-9d4a49e6=\"\" class=\"text-sm font-semibold text-base-content\"> Step 1 of 6</p><p data-v-9d4a49e6=\"\" class=\"text-sm text-neutral/70\">Personal information</p></div><div data-v-9d4a49e6=\"\" class=\"mt-3 flex h-2 overflow-hidden rounded-full bg-base-300\" role=\"progressbar\" aria-valuenow=\"17\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-label=\"Questionnaire progress\"><div data-v-9d4a49e6=\"\" class=\"h-full rounded-full bg-primary transition-all duration-300\" style=\"width: 17%;\"></div></div></div><form data-v-9d4a49e6=\"\" novalidate=\"\"><div data-v-9d4a49e6=\"\" class=\"space-y-6\"><p data-v-9d4a49e6=\"\" class=\"text-lg font-bold tracking-tight text-base-content\">Personal information</p><div data-v-9d4a49e6=\"\" class=\"grid gap-5 sm:grid-cols-2\"><div data-v-9d4a49e6=\"\" class=\"sm:col-span-2\"><label data-v-9d4a49e6=\"\" for=\"fyo-full-name\" class=\"mb-2 block text-sm font-semibold text-base-content\">Full name</label><input data-v-9d4a49e6=\"\" id=\"fyo-full-name\" type=\"text\" autocomplete=\"name\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-email\" class=\"mb-2 block text-sm font-semibold text-base-content\">Email address</label><input data-v-9d4a49e6=\"\" id=\"fyo-email\" type=\"email\" autocomplete=\"email\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-phone\" class=\"mb-2 block text-sm font-semibold text-base-content\">Phone or WhatsApp number</label><input data-v-9d4a49e6=\"\" id=\"fyo-phone\" type=\"tel\" autocomplete=\"tel\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-country\" class=\"mb-2 block text-sm font-semibold text-base-content\">Current country of residence</label><input data-v-9d4a49e6=\"\" id=\"fyo-country\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-nationality\" class=\"mb-2 block text-sm font-semibold text-base-content\">Nationality</label><input data-v-9d4a49e6=\"\" id=\"fyo-nationality\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-dob\" class=\"mb-2 block text-sm font-semibold text-base-content\">Date of birth</label><input data-v-9d4a49e6=\"\" id=\"fyo-dob\" type=\"date\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div></div></div><div data-v-9d4a49e6=\"\" class=\"mt-8 flex items-center justify-between gap-4\"><span data-v-9d4a49e6=\"\"></span><button data-v-9d4a49e6=\"\" type=\"submit\" class=\"btn btn-primary min-h-0 border-0 px-7 py-3.5 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Continue </button></div><div data-v-9d4a49e6=\"\" class=\"mt-6\" aria-hidden=\"true\"><label data-v-9d4a49e6=\"\" class=\"sr-only\" for=\"fyo-website\">Website (do not fill)</label><input data-v-9d4a49e6=\"\" id=\"fyo-website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\" class=\"sr-only\" style=\"\"></div></form></div></div></div></div></dialog>",
+        "assets": {
+          "images": [],
+          "fonts": [
+            "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+          ],
+          "backgrounds": [
+            "none, url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E\")"
+          ],
+          "media": []
+        },
+        "screenshot": "/tmp/browser/uniserv/source/destinations-desktop-cta-popup.png",
+        "dom": "/tmp/browser/uniserv/source/destinations-desktop-cta-popup.html",
+        "next_step": "not attempted; stopped before entering personal information or submitting"
+      }
+    },
+    "status": 200,
+    "title": "Study Abroad Destinations | Uniserv Education",
+    "sections": [
+      {
+        "i": 0,
+        "heading": "Choose a destination that supports your goals.",
+        "id": "",
+        "text": "STUDY ABROAD\n\nChoose a destination that supports your goals.\n\nWhere you study shapes more than your university experience. It can influence the courses available to you, the qualif",
+        "images": [
+          "https://www.uniserveducation.com/assets/eur-BpfZCQMZ.jpg"
+        ]
+      },
+      {
+        "i": 1,
+        "heading": "Your destination is part of your study plan.",
+        "id": "",
+        "text": "MORE THAN A COUNTRY\n\nYour destination is part of your study plan.\n\nA country may first attract you because of its reputation, culture or lifestyle. A stronger decision considers wh",
+        "images": []
+      },
+      {
+        "i": 2,
+        "heading": "Different destinations for different ambitions.",
+        "id": "",
+        "text": "OUR DESTINATION PORTFOLIO\n\nDifferent destinations for different ambitions.\n\nStudents do not all need the same study environment. Uniserv's destination portfolio should give student",
+        "images": []
+      },
+      {
+        "i": 3,
+        "heading": "See what each destination could add to your journey.",
+        "id": "destination-portfolio",
+        "text": "EXPLORE DESTINATIONS\n\nSee what each destination could add to your journey.\n\nEvery destination offers a different academic environment and student experience. Explore the options av",
+        "images": [
+          "https://www.uniserveducation.com/assets/uk-B4QSfeBQ.jpg",
+          "https://www.uniserveducation.com/assets/canada-CPt7CQqH.jpg",
+          "https://www.uniserveducation.com/assets/aus-u_Hfohbt.jpg",
+          "https://www.uniserveducation.com/assets/ireland-fMcKXCsN.jpg"
+        ]
+      },
+      {
+        "i": 4,
+        "heading": "What do you want your destination to make possible?",
+        "id": "",
+        "text": "START WITH YOUR GOALS\n\nWhat do you want your destination to make possible?\n\nRather than beginning with a country name, begin with what you need from your education and student expe",
+        "images": []
+      },
+      {
+        "i": 5,
+        "heading": "Questions worth asking before you decide.",
+        "id": "",
+        "text": "COMPARE THE FULL PICTURE\n\nQuestions worth asking before you decide.\n\nA practical comparison framework helps you weigh academic and practical factors together rather than focusing o",
+        "images": []
+      },
+      {
+        "i": 6,
+        "heading": "You do not need to compare every option alone.",
+        "id": "",
+        "text": "FROM INTEREST TO A SHORTLIST\n\nYou do not need to compare every option alone.\n\nA counsellor can help you organise the information around your qualifications, course interests, desti",
+        "images": []
+      },
+      {
+        "i": 7,
+        "heading": "Tell us what you want from your study experience.",
+        "id": "",
+        "text": "FIND YOUR DIRECTION\n\nTell us what you want from your study experience.\n\nShare your qualifications, preferred course, budget, destination interests and intended intake. We will use ",
+        "images": []
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.uniserveducation.com/",
+        "aria": "Uniserv Education \u2014 home"
+      },
+      {
+        "text": "Study Abroad",
+        "href": "https://www.uniserveducation.com/destinations",
+        "aria": null
+      },
+      {
+        "text": "University Partners",
+        "href": "https://www.uniserveducation.com/universities",
+        "aria": null
+      },
+      {
+        "text": "Events",
+        "href": "https://www.uniserveducation.com/events",
+        "aria": null
+      },
+      {
+        "text": "About Us",
+        "href": "https://www.uniserveducation.com/about",
+        "aria": null
+      }
+    ],
+    "media": [],
+    "scroll_positions": [
+      {
+        "y": 702,
+        "visible_headings": [
+          "Your destination is part of your study plan.",
+          "Academic fit",
+          "Financial reality",
+          "Application timing",
+          "Student experience"
+        ]
+      },
+      {
+        "y": 702,
+        "visible_headings": [
+          "Different destinations for different ambitions.",
+          "The destination should fit the student.",
+          "The student should not be forced to fit a fashionable destination."
+        ]
+      },
+      {
+        "y": 1404,
+        "visible_headings": [
+          "The destination should fit the student.",
+          "The student should not be forced to fit a fashionable destination.",
+          "See what each destination could add to your journey."
+        ]
+      },
+      {
+        "y": 2106,
+        "visible_headings": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "y": 3510,
+        "visible_headings": [
+          "United Kingdom",
+          "Canada",
+          "Australia"
+        ]
+      },
+      {
+        "y": 3510,
+        "visible_headings": [
+          "Canada",
+          "Australia"
+        ]
+      },
+      {
+        "y": 4212,
+        "visible_headings": [
+          "Ireland",
+          "New Zealand"
+        ]
+      },
+      {
+        "y": 4914,
+        "visible_headings": [
+          "United States"
+        ]
+      },
+      {
+        "y": 5616,
+        "visible_headings": [
+          "What do you want your destination to make possible?",
+          "Find a course in my chosen field",
+          "Explore undergraduate options",
+          "Progress to postgraduate study",
+          "Compare different entry pathways"
+        ]
+      },
+      {
+        "y": 6318,
+        "visible_headings": [
+          "Compare different entry pathways",
+          "Consider tuition and living costs",
+          "Study in a particular type of city",
+          "Plan for a specific intake",
+          "Explore scholarship and funding possibilities"
+        ]
+      },
+      {
+        "y": 7020,
+        "visible_headings": [
+          "Questions worth asking before you decide.",
+          "Academic plan",
+          "Practical plan"
+        ]
+      },
+      {
+        "y": 7722,
+        "visible_headings": [
+          "You do not need to compare every option alone."
+        ]
+      },
+      {
+        "y": 8424,
+        "visible_headings": [
+          "Tell us what you want from your study experience."
+        ]
+      },
+      {
+        "y": 9126,
+        "visible_headings": [
+          "Tell us what you want from your study experience."
+        ]
+      },
+      {
+        "y": 9499,
+        "visible_headings": [
+          "Tell us what you want from your study experience."
+        ]
+      }
+    ],
+    "scroll": {
+      "scrollHeight": 10399,
+      "steps": 15,
+      "bottom_y": 9499
+    }
+  },
+  {
+    "route": "/universities",
+    "layout": "desktop",
+    "url": "https://www.uniserveducation.com/universities",
+    "screenshots": [
+      "/tmp/browser/uniserv/source/universities-desktop-top.png",
+      "/tmp/browser/uniserv/source/universities-desktop-scroll-01.png",
+      "/tmp/browser/uniserv/source/universities-desktop-scroll-02.png",
+      "/tmp/browser/uniserv/source/universities-desktop-scroll-03.png",
+      "/tmp/browser/uniserv/source/universities-desktop-scroll-04.png",
+      "/tmp/browser/uniserv/source/universities-desktop-scroll-05.png",
+      "/tmp/browser/uniserv/source/universities-desktop-scroll-06.png",
+      "/tmp/browser/uniserv/source/universities-desktop-scroll-07.png",
+      "/tmp/browser/uniserv/source/universities-desktop-scroll-08.png",
+      "/tmp/browser/uniserv/source/universities-desktop-returned-top.png"
+    ],
+    "controls": {
+      "hero_cta": {
+        "status": "passed",
+        "trigger": "Talk to a counsellor",
+        "dialog": "<dialog data-v-c6d60915=\"\" class=\"counsellor-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"counsellor-modal-title\" open=\"\"><div data-v-c6d60915=\"\" class=\"flex max-h-[90vh] flex-col rounded-box bg-base-100\"><div data-v-c6d60915=\"\" class=\"flex items-center justify-between gap-4 border-b border-secondary/20 px-6 py-4 sm:px-8\"><div data-v-c6d60915=\"\"><h2 data-v-c6d60915=\"\" id=\"counsellor-modal-title\" class=\"text-xl font-bold tracking-tight text-base-content\"> Find your university options </h2><p data-v-c6d60915=\"\" class=\"mt-1 text-sm text-neutral/70\"> Tell us about your plans and we'll help identify options worth exploring. </p></div><button data-v-c6d60915=\"\" type=\"button\" class=\"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-label=\"Close\"><svg data-v-c6d60915=\"\" class=\"h-6 w-6\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path data-v-c6d60915=\"\" d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"></path></svg></button></div><div data-v-c6d60915=\"\" class=\"overflow-y-auto px-6 py-6 sm:px-8\"><div data-v-9d4a49e6=\"\" data-v-c6d60915=\"\"><div data-v-9d4a49e6=\"\" class=\"rounded-box border border-secondary/25 bg-base-100 p-6 shadow-[0_10px_30px_-22px_rgba(26,26,26,0.35)] lg:p-8\"><div data-v-9d4a49e6=\"\" class=\"mb-8\"><div data-v-9d4a49e6=\"\" class=\"flex items-center justify-between gap-4\"><p data-v-9d4a49e6=\"\" class=\"text-sm font-semibold text-base-content\"> Step 1 of 6</p><p data-v-9d4a49e6=\"\" class=\"text-sm text-neutral/70\">Personal information</p></div><div data-v-9d4a49e6=\"\" class=\"mt-3 flex h-2 overflow-hidden rounded-full bg-base-300\" role=\"progressbar\" aria-valuenow=\"17\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-label=\"Questionnaire progress\"><div data-v-9d4a49e6=\"\" class=\"h-full rounded-full bg-primary transition-all duration-300\" style=\"width: 17%;\"></div></div></div><form data-v-9d4a49e6=\"\" novalidate=\"\"><div data-v-9d4a49e6=\"\" class=\"space-y-6\"><p data-v-9d4a49e6=\"\" class=\"text-lg font-bold tracking-tight text-base-content\">Personal information</p><div data-v-9d4a49e6=\"\" class=\"grid gap-5 sm:grid-cols-2\"><div data-v-9d4a49e6=\"\" class=\"sm:col-span-2\"><label data-v-9d4a49e6=\"\" for=\"fyo-full-name\" class=\"mb-2 block text-sm font-semibold text-base-content\">Full name</label><input data-v-9d4a49e6=\"\" id=\"fyo-full-name\" type=\"text\" autocomplete=\"name\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-email\" class=\"mb-2 block text-sm font-semibold text-base-content\">Email address</label><input data-v-9d4a49e6=\"\" id=\"fyo-email\" type=\"email\" autocomplete=\"email\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-phone\" class=\"mb-2 block text-sm font-semibold text-base-content\">Phone or WhatsApp number</label><input data-v-9d4a49e6=\"\" id=\"fyo-phone\" type=\"tel\" autocomplete=\"tel\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-country\" class=\"mb-2 block text-sm font-semibold text-base-content\">Current country of residence</label><input data-v-9d4a49e6=\"\" id=\"fyo-country\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-nationality\" class=\"mb-2 block text-sm font-semibold text-base-content\">Nationality</label><input data-v-9d4a49e6=\"\" id=\"fyo-nationality\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-dob\" class=\"mb-2 block text-sm font-semibold text-base-content\">Date of birth</label><input data-v-9d4a49e6=\"\" id=\"fyo-dob\" type=\"date\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div></div></div><div data-v-9d4a49e6=\"\" class=\"mt-8 flex items-center justify-between gap-4\"><span data-v-9d4a49e6=\"\"></span><button data-v-9d4a49e6=\"\" type=\"submit\" class=\"btn btn-primary min-h-0 border-0 px-7 py-3.5 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Continue </button></div><div data-v-9d4a49e6=\"\" class=\"mt-6\" aria-hidden=\"true\"><label data-v-9d4a49e6=\"\" class=\"sr-only\" for=\"fyo-website\">Website (do not fill)</label><input data-v-9d4a49e6=\"\" id=\"fyo-website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\" class=\"sr-only\" style=\"\"></div></form></div></div></div></div></dialog>",
+        "assets": {
+          "images": [],
+          "fonts": [
+            "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+          ],
+          "backgrounds": [
+            "none, url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E\")"
+          ],
+          "media": []
+        },
+        "screenshot": "/tmp/browser/uniserv/source/universities-desktop-cta-popup.png",
+        "dom": "/tmp/browser/uniserv/source/universities-desktop-cta-popup.html",
+        "next_step": "not attempted; stopped before entering personal information or submitting"
+      }
+    },
+    "status": 200,
+    "title": "University Partners | Uniserv Education",
+    "sections": [
+      {
+        "i": 0,
+        "heading": "Explore universities across our study destinations.",
+        "id": "",
+        "text": "UNIVERSITY PARTNERS\n\nExplore universities across our study destinations.\n\nBrowse institutions in Uniserv's university portfolio and discover where your qualifications, interests an",
+        "images": [
+          "https://www.uniserveducation.com/assets/canada-CPt7CQqH.jpg"
+        ]
+      },
+      {
+        "i": 1,
+        "heading": "Start with the university\u2014or start with your goals.",
+        "id": "",
+        "text": "FIND AN INSTITUTION\n\nStart with the university\u2014or start with your goals.\n\nExplore the universities currently available through Uniserv. Selecting an institution will allow you to c",
+        "images": []
+      },
+      {
+        "i": 2,
+        "heading": "Algoma University",
+        "id": "directory",
+        "text": "Search universities\nCountry or destination\nAll countries\nAustralia\nCanada\nNew Zealand\nUnited Kingdom\nUnited Kingdom / Canada\nSort\nRecommended\nUniversity name: A\u2013Z\nUniversity name: ",
+        "images": []
+      },
+      {
+        "i": 3,
+        "heading": "Not sure which university fits your plans?",
+        "id": "",
+        "text": "FIND YOUR OPTIONS\n\nNot sure which university fits your plans?\n\nTell us about your qualifications, course interests, preferred destinations, budget and intended intake. We will help",
+        "images": []
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.uniserveducation.com/",
+        "aria": "Uniserv Education \u2014 home"
+      },
+      {
+        "text": "Study Abroad",
+        "href": "https://www.uniserveducation.com/destinations",
+        "aria": null
+      },
+      {
+        "text": "University Partners",
+        "href": "https://www.uniserveducation.com/universities",
+        "aria": null
+      },
+      {
+        "text": "Events",
+        "href": "https://www.uniserveducation.com/events",
+        "aria": null
+      },
+      {
+        "text": "About Us",
+        "href": "https://www.uniserveducation.com/about",
+        "aria": null
+      }
+    ],
+    "media": [],
+    "scroll_positions": [
+      {
+        "y": 702,
+        "visible_headings": [
+          "Start with the university\u2014or start with your goals."
+        ]
+      },
+      {
+        "y": 702,
+        "visible_headings": [
+          "Algoma University",
+          "Camosun College",
+          "ILAC Education Group",
+          "Lakehead University",
+          "McMaster University"
+        ]
+      },
+      {
+        "y": 1404,
+        "visible_headings": [
+          "Northern Lights College",
+          "Queen's University",
+          "Queens University",
+          "Saint Mary's University",
+          "University of Northern British Columbia"
+        ]
+      },
+      {
+        "y": 2106,
+        "visible_headings": [
+          "SAE Institute",
+          "University of Salford",
+          "Alexander College",
+          "Keele University",
+          "Victoria University"
+        ]
+      },
+      {
+        "y": 2808,
+        "visible_headings": [
+          "Melbourne Institute of Technology",
+          "University of Leicester",
+          "Algonquin College",
+          "Bellerbys College",
+          "EIT Engineering Institute of Technology"
+        ]
+      },
+      {
+        "y": 3510,
+        "visible_headings": [
+          "Not sure which university fits your plans?"
+        ]
+      },
+      {
+        "y": 4212,
+        "visible_headings": [
+          "Not sure which university fits your plans?"
+        ]
+      },
+      {
+        "y": 4685,
+        "visible_headings": [
+          "Not sure which university fits your plans?"
+        ]
+      }
+    ],
+    "scroll": {
+      "scrollHeight": 5585,
+      "steps": 8,
+      "bottom_y": 4685
+    }
+  },
+  {
+    "route": "/events",
+    "layout": "desktop",
+    "url": "https://www.uniserveducation.com/events",
+    "screenshots": [
+      "/tmp/browser/uniserv/source/events-desktop-top.png",
+      "/tmp/browser/uniserv/source/events-desktop-scroll-01.png",
+      "/tmp/browser/uniserv/source/events-desktop-scroll-02.png",
+      "/tmp/browser/uniserv/source/events-desktop-scroll-03.png",
+      "/tmp/browser/uniserv/source/events-desktop-scroll-04.png",
+      "/tmp/browser/uniserv/source/events-desktop-scroll-05.png",
+      "/tmp/browser/uniserv/source/events-desktop-scroll-06.png",
+      "/tmp/browser/uniserv/source/events-desktop-scroll-07.png",
+      "/tmp/browser/uniserv/source/events-desktop-scroll-08.png",
+      "/tmp/browser/uniserv/source/events-desktop-scroll-09.png",
+      "/tmp/browser/uniserv/source/events-desktop-scroll-10.png",
+      "/tmp/browser/uniserv/source/events-desktop-scroll-11.png",
+      "/tmp/browser/uniserv/source/events-desktop-scroll-12.png",
+      "/tmp/browser/uniserv/source/events-desktop-returned-top.png"
+    ],
+    "controls": {
+      "hero_cta": {
+        "status": "passed",
+        "trigger": "Talk to a counsellor",
+        "dialog": "<dialog data-v-c6d60915=\"\" class=\"counsellor-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"counsellor-modal-title\" open=\"\"><div data-v-c6d60915=\"\" class=\"flex max-h-[90vh] flex-col rounded-box bg-base-100\"><div data-v-c6d60915=\"\" class=\"flex items-center justify-between gap-4 border-b border-secondary/20 px-6 py-4 sm:px-8\"><div data-v-c6d60915=\"\"><h2 data-v-c6d60915=\"\" id=\"counsellor-modal-title\" class=\"text-xl font-bold tracking-tight text-base-content\"> Find your university options </h2><p data-v-c6d60915=\"\" class=\"mt-1 text-sm text-neutral/70\"> Tell us about your plans and we'll help identify options worth exploring. </p></div><button data-v-c6d60915=\"\" type=\"button\" class=\"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-label=\"Close\"><svg data-v-c6d60915=\"\" class=\"h-6 w-6\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path data-v-c6d60915=\"\" d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"></path></svg></button></div><div data-v-c6d60915=\"\" class=\"overflow-y-auto px-6 py-6 sm:px-8\"><div data-v-9d4a49e6=\"\" data-v-c6d60915=\"\"><div data-v-9d4a49e6=\"\" class=\"rounded-box border border-secondary/25 bg-base-100 p-6 shadow-[0_10px_30px_-22px_rgba(26,26,26,0.35)] lg:p-8\"><div data-v-9d4a49e6=\"\" class=\"mb-8\"><div data-v-9d4a49e6=\"\" class=\"flex items-center justify-between gap-4\"><p data-v-9d4a49e6=\"\" class=\"text-sm font-semibold text-base-content\"> Step 1 of 6</p><p data-v-9d4a49e6=\"\" class=\"text-sm text-neutral/70\">Personal information</p></div><div data-v-9d4a49e6=\"\" class=\"mt-3 flex h-2 overflow-hidden rounded-full bg-base-300\" role=\"progressbar\" aria-valuenow=\"17\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-label=\"Questionnaire progress\"><div data-v-9d4a49e6=\"\" class=\"h-full rounded-full bg-primary transition-all duration-300\" style=\"width: 17%;\"></div></div></div><form data-v-9d4a49e6=\"\" novalidate=\"\"><div data-v-9d4a49e6=\"\" class=\"space-y-6\"><p data-v-9d4a49e6=\"\" class=\"text-lg font-bold tracking-tight text-base-content\">Personal information</p><div data-v-9d4a49e6=\"\" class=\"grid gap-5 sm:grid-cols-2\"><div data-v-9d4a49e6=\"\" class=\"sm:col-span-2\"><label data-v-9d4a49e6=\"\" for=\"fyo-full-name\" class=\"mb-2 block text-sm font-semibold text-base-content\">Full name</label><input data-v-9d4a49e6=\"\" id=\"fyo-full-name\" type=\"text\" autocomplete=\"name\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-email\" class=\"mb-2 block text-sm font-semibold text-base-content\">Email address</label><input data-v-9d4a49e6=\"\" id=\"fyo-email\" type=\"email\" autocomplete=\"email\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-phone\" class=\"mb-2 block text-sm font-semibold text-base-content\">Phone or WhatsApp number</label><input data-v-9d4a49e6=\"\" id=\"fyo-phone\" type=\"tel\" autocomplete=\"tel\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-country\" class=\"mb-2 block text-sm font-semibold text-base-content\">Current country of residence</label><input data-v-9d4a49e6=\"\" id=\"fyo-country\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-nationality\" class=\"mb-2 block text-sm font-semibold text-base-content\">Nationality</label><input data-v-9d4a49e6=\"\" id=\"fyo-nationality\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-dob\" class=\"mb-2 block text-sm font-semibold text-base-content\">Date of birth</label><input data-v-9d4a49e6=\"\" id=\"fyo-dob\" type=\"date\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div></div></div><div data-v-9d4a49e6=\"\" class=\"mt-8 flex items-center justify-between gap-4\"><span data-v-9d4a49e6=\"\"></span><button data-v-9d4a49e6=\"\" type=\"submit\" class=\"btn btn-primary min-h-0 border-0 px-7 py-3.5 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Continue </button></div><div data-v-9d4a49e6=\"\" class=\"mt-6\" aria-hidden=\"true\"><label data-v-9d4a49e6=\"\" class=\"sr-only\" for=\"fyo-website\">Website (do not fill)</label><input data-v-9d4a49e6=\"\" id=\"fyo-website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\" class=\"sr-only\" style=\"\"></div></form></div></div></div></div></dialog>",
+        "assets": {
+          "images": [],
+          "fonts": [
+            "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+          ],
+          "backgrounds": [
+            "none, url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E\")"
+          ],
+          "media": []
+        },
+        "screenshot": "/tmp/browser/uniserv/source/events-desktop-cta-popup.png",
+        "dom": "/tmp/browser/uniserv/source/events-desktop-cta-popup.html",
+        "next_step": "not attempted; stopped before entering personal information or submitting"
+      }
+    },
+    "status": 200,
+    "title": "Events | Uniserv Education",
+    "sections": [
+      {
+        "i": 0,
+        "heading": "Meet us, ask questions and plan your next step.",
+        "id": "",
+        "text": "EVENTS\n\nMeet us, ask questions and plan your next step.\n\nUniversity visits, information sessions and study-abroad events give students a chance to ask real questions, see how the p",
+        "images": []
+      },
+      {
+        "i": 1,
+        "heading": "Already underway \u2014 and you can still join.",
+        "id": "",
+        "text": "RUNNING NOW\n\nAlready underway \u2014 and you can still join.\n\nThese events have started but have not finished yet. Depending on the format, you may still be able to join or register for",
+        "images": [
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/41qk0tm9edqhgpf/plymouth_qtz4yxo6mq.jpg",
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/d7ahtte2463nby8/study_in_canada_2027_intake_qd1x2oms0w.png",
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/jdvkjvl7de1e1s8/georgian_college_yn3x22yd2n.png",
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/i79knkrfo0s74x8/london_meds1_wua7fezx2d.jpg"
+        ]
+      },
+      {
+        "i": 2,
+        "heading": "A calendar worth checking before you decide.",
+        "id": "upcoming-events",
+        "text": "UPCOMING EVENTS\n\nA calendar worth checking before you decide.\n\nWhether you want to meet a university in person or join from anywhere online, these are the sessions currently open f",
+        "images": [
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/iselt6gzinvo3t2/testusaimage_1_97wd9f7uy5.jpg"
+        ]
+      },
+      {
+        "i": 3,
+        "heading": "Earlier sessions and visits.",
+        "id": "",
+        "text": "PAST EVENTS\n\nEarlier sessions and visits.\n\nA record of the conversations we have hosted recently. Past events are not open for registration, but they give a sense of the topics Uni",
+        "images": []
+      },
+      {
+        "i": 4,
+        "heading": "Not sure which event is right for you?",
+        "id": "",
+        "text": "KEEP THE MOMENTUM GOING\n\nNot sure which event is right for you?\n\nEvents are one way to learn. A counsellor can help you understand your options, prepare for applications and identi",
+        "images": []
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.uniserveducation.com/",
+        "aria": "Uniserv Education \u2014 home"
+      },
+      {
+        "text": "Study Abroad",
+        "href": "https://www.uniserveducation.com/destinations",
+        "aria": null
+      },
+      {
+        "text": "University Partners",
+        "href": "https://www.uniserveducation.com/universities",
+        "aria": null
+      },
+      {
+        "text": "Events",
+        "href": "https://www.uniserveducation.com/events",
+        "aria": null
+      },
+      {
+        "text": "About Us",
+        "href": "https://www.uniserveducation.com/about",
+        "aria": null
+      }
+    ],
+    "media": [],
+    "scroll_positions": [
+      {
+        "y": 702,
+        "visible_headings": [
+          "Already underway \u2014 and you can still join."
+        ]
+      },
+      {
+        "y": 702,
+        "visible_headings": [
+          "Study in the UK: University of Plymouth",
+          "Study in Canada - September 2027 Intake",
+          "Study in Canada: Georgian College"
+        ]
+      },
+      {
+        "y": 1404,
+        "visible_headings": [
+          "Study Medicine in 2027",
+          "UCAS Applications Ongoing",
+          "Study in Germany - Applications Ongoing"
+        ]
+      },
+      {
+        "y": 2106,
+        "visible_headings": [
+          "Study in Ireland - Applications Ongoing",
+          "Study in the UK: January Intake 2027",
+          "Study Abroad: 2027 Intakes Currently Ongoing"
+        ]
+      },
+      {
+        "y": 2808,
+        "visible_headings": [
+          "WHAT NEXT AFTER KCSE? - Inquire Now!"
+        ]
+      },
+      {
+        "y": 3510,
+        "visible_headings": [
+          "WHAT NEXT AFTER KCSE? - Inquire Now!",
+          "A calendar worth checking before you decide."
+        ]
+      },
+      {
+        "y": 4212,
+        "visible_headings": [
+          "A calendar worth checking before you decide.",
+          "Study in the USA - August Intake 2027"
+        ]
+      },
+      {
+        "y": 4914,
+        "visible_headings": [
+          "Earlier sessions and visits.",
+          "Meet the University Representatives: Northern Lights College & University Fraser Valley - Students/Parents Seminar",
+          "Meet Leah Odada - Carleton University"
+        ]
+      },
+      {
+        "y": 5616,
+        "visible_headings": [
+          "Meet the University Representatives: Northern Lights College & University Fraser Valley - Students/Parents Seminar",
+          "Meet Leah Odada - Carleton University",
+          "St. Lawrence College - Students/Parents Information Session",
+          "Study Abroad Open Day - Kisumu Edition",
+          "St. Lawrence College - Students/Parents Information Session (Eldoret)"
+        ]
+      },
+      {
+        "y": 6318,
+        "visible_headings": [
+          "Northeastern University: Global Study Expo Africa",
+          "Study Canadian Programmes in Dubai",
+          "Study in Canada: Georgian College",
+          "Not sure which event is right for you?"
+        ]
+      },
+      {
+        "y": 7020,
+        "visible_headings": [
+          "Not sure which event is right for you?"
+        ]
+      },
+      {
+        "y": 7521,
+        "visible_headings": [
+          "Not sure which event is right for you?"
+        ]
+      }
+    ],
+    "scroll": {
+      "scrollHeight": 8421,
+      "steps": 12,
+      "bottom_y": 7521
+    }
+  },
+  {
+    "route": "/about",
+    "layout": "desktop",
+    "url": "https://www.uniserveducation.com/about",
+    "screenshots": [
+      "/tmp/browser/uniserv/source/about-desktop-top.png",
+      "/tmp/browser/uniserv/source/about-desktop-scroll-01.png",
+      "/tmp/browser/uniserv/source/about-desktop-scroll-02.png",
+      "/tmp/browser/uniserv/source/about-desktop-scroll-03.png",
+      "/tmp/browser/uniserv/source/about-desktop-scroll-04.png",
+      "/tmp/browser/uniserv/source/about-desktop-scroll-05.png",
+      "/tmp/browser/uniserv/source/about-desktop-scroll-06.png",
+      "/tmp/browser/uniserv/source/about-desktop-scroll-07.png",
+      "/tmp/browser/uniserv/source/about-desktop-scroll-08.png",
+      "/tmp/browser/uniserv/source/about-desktop-scroll-09.png",
+      "/tmp/browser/uniserv/source/about-desktop-scroll-10.png",
+      "/tmp/browser/uniserv/source/about-desktop-returned-top.png"
+    ],
+    "controls": {
+      "hero_cta": {
+        "status": "passed",
+        "trigger": "Talk to a counsellor",
+        "dialog": "<dialog data-v-c6d60915=\"\" class=\"counsellor-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"counsellor-modal-title\" open=\"\"><div data-v-c6d60915=\"\" class=\"flex max-h-[90vh] flex-col rounded-box bg-base-100\"><div data-v-c6d60915=\"\" class=\"flex items-center justify-between gap-4 border-b border-secondary/20 px-6 py-4 sm:px-8\"><div data-v-c6d60915=\"\"><h2 data-v-c6d60915=\"\" id=\"counsellor-modal-title\" class=\"text-xl font-bold tracking-tight text-base-content\"> Find your university options </h2><p data-v-c6d60915=\"\" class=\"mt-1 text-sm text-neutral/70\"> Tell us about your plans and we'll help identify options worth exploring. </p></div><button data-v-c6d60915=\"\" type=\"button\" class=\"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-label=\"Close\"><svg data-v-c6d60915=\"\" class=\"h-6 w-6\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path data-v-c6d60915=\"\" d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"></path></svg></button></div><div data-v-c6d60915=\"\" class=\"overflow-y-auto px-6 py-6 sm:px-8\"><div data-v-9d4a49e6=\"\" data-v-c6d60915=\"\"><div data-v-9d4a49e6=\"\" class=\"rounded-box border border-secondary/25 bg-base-100 p-6 shadow-[0_10px_30px_-22px_rgba(26,26,26,0.35)] lg:p-8\"><div data-v-9d4a49e6=\"\" class=\"mb-8\"><div data-v-9d4a49e6=\"\" class=\"flex items-center justify-between gap-4\"><p data-v-9d4a49e6=\"\" class=\"text-sm font-semibold text-base-content\"> Step 1 of 6</p><p data-v-9d4a49e6=\"\" class=\"text-sm text-neutral/70\">Personal information</p></div><div data-v-9d4a49e6=\"\" class=\"mt-3 flex h-2 overflow-hidden rounded-full bg-base-300\" role=\"progressbar\" aria-valuenow=\"17\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-label=\"Questionnaire progress\"><div data-v-9d4a49e6=\"\" class=\"h-full rounded-full bg-primary transition-all duration-300\" style=\"width: 17%;\"></div></div></div><form data-v-9d4a49e6=\"\" novalidate=\"\"><div data-v-9d4a49e6=\"\" class=\"space-y-6\"><p data-v-9d4a49e6=\"\" class=\"text-lg font-bold tracking-tight text-base-content\">Personal information</p><div data-v-9d4a49e6=\"\" class=\"grid gap-5 sm:grid-cols-2\"><div data-v-9d4a49e6=\"\" class=\"sm:col-span-2\"><label data-v-9d4a49e6=\"\" for=\"fyo-full-name\" class=\"mb-2 block text-sm font-semibold text-base-content\">Full name</label><input data-v-9d4a49e6=\"\" id=\"fyo-full-name\" type=\"text\" autocomplete=\"name\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-email\" class=\"mb-2 block text-sm font-semibold text-base-content\">Email address</label><input data-v-9d4a49e6=\"\" id=\"fyo-email\" type=\"email\" autocomplete=\"email\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-phone\" class=\"mb-2 block text-sm font-semibold text-base-content\">Phone or WhatsApp number</label><input data-v-9d4a49e6=\"\" id=\"fyo-phone\" type=\"tel\" autocomplete=\"tel\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-country\" class=\"mb-2 block text-sm font-semibold text-base-content\">Current country of residence</label><input data-v-9d4a49e6=\"\" id=\"fyo-country\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-nationality\" class=\"mb-2 block text-sm font-semibold text-base-content\">Nationality</label><input data-v-9d4a49e6=\"\" id=\"fyo-nationality\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-dob\" class=\"mb-2 block text-sm font-semibold text-base-content\">Date of birth</label><input data-v-9d4a49e6=\"\" id=\"fyo-dob\" type=\"date\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div></div></div><div data-v-9d4a49e6=\"\" class=\"mt-8 flex items-center justify-between gap-4\"><span data-v-9d4a49e6=\"\"></span><button data-v-9d4a49e6=\"\" type=\"submit\" class=\"btn btn-primary min-h-0 border-0 px-7 py-3.5 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Continue </button></div><div data-v-9d4a49e6=\"\" class=\"mt-6\" aria-hidden=\"true\"><label data-v-9d4a49e6=\"\" class=\"sr-only\" for=\"fyo-website\">Website (do not fill)</label><input data-v-9d4a49e6=\"\" id=\"fyo-website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\" class=\"sr-only\" style=\"\"></div></form></div></div></div></div></dialog>",
+        "assets": {
+          "images": [],
+          "fonts": [
+            "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+          ],
+          "backgrounds": [
+            "none, url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E\")"
+          ],
+          "media": []
+        },
+        "screenshot": "/tmp/browser/uniserv/source/about-desktop-cta-popup.png",
+        "dom": "/tmp/browser/uniserv/source/about-desktop-cta-popup.html",
+        "next_step": "not attempted; stopped before entering personal information or submitting"
+      }
+    },
+    "status": 200,
+    "title": "About Uniserv | Uniserv Education",
+    "sections": [
+      {
+        "i": 0,
+        "heading": "Guidance shaped around the student.",
+        "id": "",
+        "text": "ABOUT UNISERV\n\nGuidance shaped around the student.\n\nUniserv Education helps students and families explore international study options, compare universities and prepare for the step",
+        "images": [
+          "https://www.uniserveducation.com/assets/consult-DZFzyROL.jpg"
+        ]
+      },
+      {
+        "i": 1,
+        "heading": "A practical connection between students and international education.",
+        "id": "",
+        "text": "WHO WE ARE\n\nA practical connection between students and international education.\n\nChoosing where and what to study involves academic, financial and personal decisions. We help stud",
+        "images": []
+      },
+      {
+        "i": 2,
+        "heading": "People behind the guidance.",
+        "id": "team",
+        "text": "MEET THE TEAM\n\nPeople behind the guidance.\n\nOur team brings together leadership, regional knowledge and study-destination expertise to help students understand their options and pr",
+        "images": []
+      },
+      {
+        "i": 3,
+        "heading": "Listen first. Compare carefully. Plan clearly.",
+        "id": "",
+        "text": "OUR APPROACH\n\nListen first. Compare carefully. Plan clearly.\n\nA suitable option should reflect the student's qualifications, course interests, preferred study level, budget, intend",
+        "images": []
+      },
+      {
+        "i": 4,
+        "heading": "Meet us where your journey begins.",
+        "id": "offices",
+        "text": "OUR LOCATIONS\n\nMeet us where your journey begins.\n\nConnect with the Uniserv office closest to you for guidance on study destinations, university options and application preparation",
+        "images": []
+      },
+      {
+        "i": 5,
+        "heading": "Ready to explore your study options?",
+        "id": "",
+        "text": "NEXT STEP\n\nReady to explore your study options?\n\nTell us about your qualifications, course interests and preferences. We will help identify university options worth exploring.\n\nFin",
+        "images": []
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.uniserveducation.com/",
+        "aria": "Uniserv Education \u2014 home"
+      },
+      {
+        "text": "Study Abroad",
+        "href": "https://www.uniserveducation.com/destinations",
+        "aria": null
+      },
+      {
+        "text": "University Partners",
+        "href": "https://www.uniserveducation.com/universities",
+        "aria": null
+      },
+      {
+        "text": "Events",
+        "href": "https://www.uniserveducation.com/events",
+        "aria": null
+      },
+      {
+        "text": "About Us",
+        "href": "https://www.uniserveducation.com/about",
+        "aria": null
+      }
+    ],
+    "media": [],
+    "scroll_positions": [
+      {
+        "y": 702,
+        "visible_headings": [
+          "A practical connection between students and international education.",
+          "People behind the guidance."
+        ]
+      },
+      {
+        "y": 702,
+        "visible_headings": [
+          "People behind the guidance.",
+          "Amin Esmail",
+          "Amin Esmail",
+          "Jordan Koech",
+          "Anne Wambugu"
+        ]
+      },
+      {
+        "y": 1404,
+        "visible_headings": [
+          "Amin Esmail",
+          "Jordan Koech",
+          "Anne Wambugu",
+          "Listen first. Compare carefully. Plan clearly.",
+          "Listen first"
+        ]
+      },
+      {
+        "y": 2106,
+        "visible_headings": [
+          "Listen first",
+          "Compare carefully",
+          "Plan clearly",
+          "Meet us where your journey begins.",
+          "Kenya"
+        ]
+      },
+      {
+        "y": 2808,
+        "visible_headings": [
+          "Mauritius",
+          "Rwanda"
+        ]
+      },
+      {
+        "y": 3510,
+        "visible_headings": [
+          "Rwanda",
+          "Tanzania",
+          "Uganda"
+        ]
+      },
+      {
+        "y": 4212,
+        "visible_headings": [
+          "Uganda",
+          "United Arab Emirates",
+          "United Kingdom",
+          "Zambia"
+        ]
+      },
+      {
+        "y": 4914,
+        "visible_headings": [
+          "Zambia",
+          "Ready to explore your study options?"
+        ]
+      },
+      {
+        "y": 5616,
+        "visible_headings": [
+          "Ready to explore your study options?"
+        ]
+      },
+      {
+        "y": 6119,
+        "visible_headings": [
+          "Ready to explore your study options?"
+        ]
+      }
+    ],
+    "scroll": {
+      "scrollHeight": 7019,
+      "steps": 10,
+      "bottom_y": 6119
+    }
+  },
+  {
+    "route": "/",
+    "layout": "phone",
+    "url": "https://www.uniserveducation.com",
+    "screenshots": [
+      "/tmp/browser/uniserv/source/home-phone-top.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-01.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-02.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-03.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-04.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-05.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-06.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-07.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-08.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-09.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-10.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-11.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-12.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-13.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-14.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-15.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-16.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-17.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-18.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-19.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-20.png",
+      "/tmp/browser/uniserv/source/home-phone-scroll-21.png",
+      "/tmp/browser/uniserv/source/home-phone-returned-top.png"
+    ],
+    "controls": {
+      "mobile_navigation": {
+        "status": "failed_or_blocked",
+        "detail": "Page.wait_for_function: Timeout 4000ms exceeded."
+      },
+      "hero_cta": {
+        "status": "passed",
+        "trigger": "Talk to a counsellor",
+        "dialog": "<dialog data-v-c6d60915=\"\" class=\"counsellor-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"counsellor-modal-title\" open=\"\"><div data-v-c6d60915=\"\" class=\"flex max-h-[90vh] flex-col rounded-box bg-base-100\"><div data-v-c6d60915=\"\" class=\"flex items-center justify-between gap-4 border-b border-secondary/20 px-6 py-4 sm:px-8\"><div data-v-c6d60915=\"\"><h2 data-v-c6d60915=\"\" id=\"counsellor-modal-title\" class=\"text-xl font-bold tracking-tight text-base-content\"> Find your university options </h2><p data-v-c6d60915=\"\" class=\"mt-1 text-sm text-neutral/70\"> Tell us about your plans and we'll help identify options worth exploring. </p></div><button data-v-c6d60915=\"\" type=\"button\" class=\"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-label=\"Close\"><svg data-v-c6d60915=\"\" class=\"h-6 w-6\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path data-v-c6d60915=\"\" d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"></path></svg></button></div><div data-v-c6d60915=\"\" class=\"overflow-y-auto px-6 py-6 sm:px-8\"><div data-v-9d4a49e6=\"\" data-v-c6d60915=\"\"><div data-v-9d4a49e6=\"\" class=\"rounded-box border border-secondary/25 bg-base-100 p-6 shadow-[0_10px_30px_-22px_rgba(26,26,26,0.35)] lg:p-8\"><div data-v-9d4a49e6=\"\" class=\"mb-8\"><div data-v-9d4a49e6=\"\" class=\"flex items-center justify-between gap-4\"><p data-v-9d4a49e6=\"\" class=\"text-sm font-semibold text-base-content\"> Step 1 of 6</p><p data-v-9d4a49e6=\"\" class=\"text-sm text-neutral/70\">Personal information</p></div><div data-v-9d4a49e6=\"\" class=\"mt-3 flex h-2 overflow-hidden rounded-full bg-base-300\" role=\"progressbar\" aria-valuenow=\"17\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-label=\"Questionnaire progress\"><div data-v-9d4a49e6=\"\" class=\"h-full rounded-full bg-primary transition-all duration-300\" style=\"width: 17%;\"></div></div></div><form data-v-9d4a49e6=\"\" novalidate=\"\"><div data-v-9d4a49e6=\"\" class=\"space-y-6\"><p data-v-9d4a49e6=\"\" class=\"text-lg font-bold tracking-tight text-base-content\">Personal information</p><div data-v-9d4a49e6=\"\" class=\"grid gap-5 sm:grid-cols-2\"><div data-v-9d4a49e6=\"\" class=\"sm:col-span-2\"><label data-v-9d4a49e6=\"\" for=\"fyo-full-name\" class=\"mb-2 block text-sm font-semibold text-base-content\">Full name</label><input data-v-9d4a49e6=\"\" id=\"fyo-full-name\" type=\"text\" autocomplete=\"name\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-email\" class=\"mb-2 block text-sm font-semibold text-base-content\">Email address</label><input data-v-9d4a49e6=\"\" id=\"fyo-email\" type=\"email\" autocomplete=\"email\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-phone\" class=\"mb-2 block text-sm font-semibold text-base-content\">Phone or WhatsApp number</label><input data-v-9d4a49e6=\"\" id=\"fyo-phone\" type=\"tel\" autocomplete=\"tel\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-country\" class=\"mb-2 block text-sm font-semibold text-base-content\">Current country of residence</label><input data-v-9d4a49e6=\"\" id=\"fyo-country\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-nationality\" class=\"mb-2 block text-sm font-semibold text-base-content\">Nationality</label><input data-v-9d4a49e6=\"\" id=\"fyo-nationality\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-dob\" class=\"mb-2 block text-sm font-semibold text-base-content\">Date of birth</label><input data-v-9d4a49e6=\"\" id=\"fyo-dob\" type=\"date\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div></div></div><div data-v-9d4a49e6=\"\" class=\"mt-8 flex items-center justify-between gap-4\"><span data-v-9d4a49e6=\"\"></span><button data-v-9d4a49e6=\"\" type=\"submit\" class=\"btn btn-primary min-h-0 border-0 px-7 py-3.5 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Continue </button></div><div data-v-9d4a49e6=\"\" class=\"mt-6\" aria-hidden=\"true\"><label data-v-9d4a49e6=\"\" class=\"sr-only\" for=\"fyo-website\">Website (do not fill)</label><input data-v-9d4a49e6=\"\" id=\"fyo-website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\" class=\"sr-only\" style=\"\"></div></form></div></div></div></div></dialog>",
+        "assets": {
+          "images": [],
+          "fonts": [
+            "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+          ],
+          "backgrounds": [
+            "none, url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E\")"
+          ],
+          "media": []
+        },
+        "screenshot": "/tmp/browser/uniserv/source/home-phone-cta-popup.png",
+        "dom": "/tmp/browser/uniserv/source/home-phone-cta-popup.html",
+        "next_step": "not attempted; stopped before entering personal information or submitting"
+      }
+    },
+    "status": 200,
+    "title": "Uniserv Education",
+    "sections": [
+      {
+        "i": 0,
+        "heading": "A clearer path to studying abroad starts here.",
+        "id": "",
+        "text": "A clearer path to studying abroad starts here.\n\nExplore universities and courses across leading global study destinations, with guidance for every step of the journey.\n\nExplore stu",
+        "images": [
+          "https://www.uniserveducation.com/assets/world-map-muted-z06gPAAu.svg",
+          "https://www.uniserveducation.com/assets/uniserv-big-logo-big-CHAeSuRp.png"
+        ]
+      },
+      {
+        "i": 1,
+        "heading": "Where will your studies take you?",
+        "id": "",
+        "text": "EXPLORE YOUR OPTIONS\n\nWhere will your studies take you?\n\nCompare popular study destinations, explore different university experiences and find an option that fits your goals, quali",
+        "images": [
+          "https://www.uniserveducation.com/assets/uk-B4QSfeBQ.jpg",
+          "https://www.uniserveducation.com/assets/canada-CPt7CQqH.jpg",
+          "https://www.uniserveducation.com/assets/aus-u_Hfohbt.jpg",
+          "https://www.uniserveducation.com/assets/ireland-fMcKXCsN.jpg"
+        ]
+      },
+      {
+        "i": 2,
+        "heading": "Support for every step that needs a clearer answer.",
+        "id": "",
+        "text": "HOW WE HELP\n\nSupport for every step that needs a clearer answer.\n\nFrom comparing courses to preparing for departure, our counsellors help you understand your options and complete e",
+        "images": []
+      },
+      {
+        "i": 3,
+        "heading": "A clearer path from first conversation to departure.",
+        "id": "",
+        "text": "YOUR JOURNEY\n\nA clearer path from first conversation to departure.\n\nEvery application is different, but knowing the main stages makes it easier to prepare for what comes next.\n\n01\n",
+        "images": []
+      },
+      {
+        "i": 4,
+        "heading": "Meet, ask questions and plan your next step.",
+        "id": "",
+        "text": "UPCOMING EVENTS\n\nMeet, ask questions and plan your next step.\n\nJoin university visits, information sessions and study-abroad events designed to help you make more informed decision",
+        "images": [
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/41qk0tm9edqhgpf/plymouth_qtz4yxo6mq.jpg",
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/d7ahtte2463nby8/study_in_canada_2027_intake_qd1x2oms0w.png",
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/jdvkjvl7de1e1s8/georgian_college_yn3x22yd2n.png"
+        ]
+      },
+      {
+        "i": 5,
+        "heading": "Start with the questions that matter.",
+        "id": "",
+        "text": "PRACTICAL GUIDANCE\n\nStart with the questions that matter.\n\nExplore practical guidance for comparing universities, preparing applications and planning for life abroad.\n\nSTUDENT & PA",
+        "images": []
+      },
+      {
+        "i": 6,
+        "heading": "Guidance closer to home.",
+        "id": "",
+        "text": "FIND UNISERV\n\nGuidance closer to home.\n\nConnect with a Uniserv office or speak with a counsellor about your study plans.\n\nTalk to a real team\n\nOffice locations are being confirmed.",
+        "images": []
+      },
+      {
+        "i": 7,
+        "heading": "Ready to explore your study options?",
+        "id": "",
+        "text": "NEXT STEPS\n\nReady to explore your study options?\n\nTell us where you are in your journey, and a counsellor will help you understand the next steps.\n\nStart your enquiry\nFind an offic",
+        "images": []
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.uniserveducation.com/",
+        "aria": "Uniserv Education \u2014 home"
+      },
+      {
+        "text": "Study Abroad",
+        "href": "https://www.uniserveducation.com/destinations",
+        "aria": null
+      },
+      {
+        "text": "University Partners",
+        "href": "https://www.uniserveducation.com/universities",
+        "aria": null
+      },
+      {
+        "text": "Events",
+        "href": "https://www.uniserveducation.com/events",
+        "aria": null
+      },
+      {
+        "text": "About Us",
+        "href": "https://www.uniserveducation.com/about",
+        "aria": null
+      }
+    ],
+    "media": [],
+    "scroll_positions": [
+      {
+        "y": 658,
+        "visible_headings": [
+          "Where will your studies take you?"
+        ]
+      },
+      {
+        "y": 658,
+        "visible_headings": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "y": 1316,
+        "visible_headings": [
+          "Canada"
+        ]
+      },
+      {
+        "y": 1974,
+        "visible_headings": [
+          "Australia",
+          "Ireland"
+        ]
+      },
+      {
+        "y": 2632,
+        "visible_headings": [
+          "Ireland",
+          "New Zealand"
+        ]
+      },
+      {
+        "y": 3290,
+        "visible_headings": [
+          "United States",
+          "Support for every step that needs a clearer answer."
+        ]
+      },
+      {
+        "y": 3948,
+        "visible_headings": [
+          "Support for every step that needs a clearer answer.",
+          "Course and university guidance",
+          "Application support"
+        ]
+      },
+      {
+        "y": 4606,
+        "visible_headings": [
+          "Application support",
+          "Visa guidance",
+          "Accommodation guidance",
+          "Pre-departure support"
+        ]
+      },
+      {
+        "y": 5264,
+        "visible_headings": [
+          "A clearer path from first conversation to departure.",
+          "Discover your options",
+          "Choose your direction",
+          "Prepare your application"
+        ]
+      },
+      {
+        "y": 5922,
+        "visible_headings": [
+          "Choose your direction",
+          "Prepare your application",
+          "Navigate the next steps",
+          "Get ready to leave"
+        ]
+      },
+      {
+        "y": 6580,
+        "visible_headings": [
+          "Meet, ask questions and plan your next step."
+        ]
+      },
+      {
+        "y": 7238,
+        "visible_headings": [
+          "Study in the UK: University of Plymouth"
+        ]
+      },
+      {
+        "y": 7896,
+        "visible_headings": [
+          "Study in Canada - September 2027 Intake"
+        ]
+      },
+      {
+        "y": 8554,
+        "visible_headings": [
+          "Study in Canada: Georgian College"
+        ]
+      },
+      {
+        "y": 9212,
+        "visible_headings": [
+          "Study in Canada: Georgian College",
+          "Start with the questions that matter."
+        ]
+      },
+      {
+        "y": 9870,
+        "visible_headings": [
+          "Start with the questions that matter.",
+          "Choosing an education agent with confidence"
+        ]
+      },
+      {
+        "y": 10528,
+        "visible_headings": [
+          "Guidance closer to home.",
+          "Talk to a real team"
+        ]
+      },
+      {
+        "y": 11186,
+        "visible_headings": [
+          "Ready to explore your study options?"
+        ]
+      },
+      {
+        "y": 11844,
+        "visible_headings": []
+      },
+      {
+        "y": 12502,
+        "visible_headings": []
+      },
+      {
+        "y": 13030,
+        "visible_headings": []
+      }
+    ],
+    "scroll": {
+      "scrollHeight": 13874,
+      "steps": 21,
+      "bottom_y": 13030
+    }
+  },
+  {
+    "route": "/destinations",
+    "layout": "phone",
+    "url": "https://www.uniserveducation.com/destinations",
+    "screenshots": [
+      "/tmp/browser/uniserv/source/destinations-phone-top.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-01.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-02.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-03.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-04.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-05.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-06.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-07.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-08.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-09.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-10.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-11.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-12.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-13.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-14.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-15.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-16.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-17.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-18.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-19.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-20.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-21.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-22.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-23.png",
+      "/tmp/browser/uniserv/source/destinations-phone-scroll-24.png",
+      "/tmp/browser/uniserv/source/destinations-phone-returned-top.png"
+    ],
+    "controls": {
+      "mobile_navigation": {
+        "status": "failed_or_blocked",
+        "detail": "Page.wait_for_function: Timeout 4000ms exceeded."
+      },
+      "hero_cta": {
+        "status": "passed",
+        "trigger": "Talk to a counsellor",
+        "dialog": "<dialog data-v-c6d60915=\"\" class=\"counsellor-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"counsellor-modal-title\" open=\"\"><div data-v-c6d60915=\"\" class=\"flex max-h-[90vh] flex-col rounded-box bg-base-100\"><div data-v-c6d60915=\"\" class=\"flex items-center justify-between gap-4 border-b border-secondary/20 px-6 py-4 sm:px-8\"><div data-v-c6d60915=\"\"><h2 data-v-c6d60915=\"\" id=\"counsellor-modal-title\" class=\"text-xl font-bold tracking-tight text-base-content\"> Find your university options </h2><p data-v-c6d60915=\"\" class=\"mt-1 text-sm text-neutral/70\"> Tell us about your plans and we'll help identify options worth exploring. </p></div><button data-v-c6d60915=\"\" type=\"button\" class=\"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-label=\"Close\"><svg data-v-c6d60915=\"\" class=\"h-6 w-6\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path data-v-c6d60915=\"\" d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"></path></svg></button></div><div data-v-c6d60915=\"\" class=\"overflow-y-auto px-6 py-6 sm:px-8\"><div data-v-9d4a49e6=\"\" data-v-c6d60915=\"\"><div data-v-9d4a49e6=\"\" class=\"rounded-box border border-secondary/25 bg-base-100 p-6 shadow-[0_10px_30px_-22px_rgba(26,26,26,0.35)] lg:p-8\"><div data-v-9d4a49e6=\"\" class=\"mb-8\"><div data-v-9d4a49e6=\"\" class=\"flex items-center justify-between gap-4\"><p data-v-9d4a49e6=\"\" class=\"text-sm font-semibold text-base-content\"> Step 1 of 6</p><p data-v-9d4a49e6=\"\" class=\"text-sm text-neutral/70\">Personal information</p></div><div data-v-9d4a49e6=\"\" class=\"mt-3 flex h-2 overflow-hidden rounded-full bg-base-300\" role=\"progressbar\" aria-valuenow=\"17\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-label=\"Questionnaire progress\"><div data-v-9d4a49e6=\"\" class=\"h-full rounded-full bg-primary transition-all duration-300\" style=\"width: 17%;\"></div></div></div><form data-v-9d4a49e6=\"\" novalidate=\"\"><div data-v-9d4a49e6=\"\" class=\"space-y-6\"><p data-v-9d4a49e6=\"\" class=\"text-lg font-bold tracking-tight text-base-content\">Personal information</p><div data-v-9d4a49e6=\"\" class=\"grid gap-5 sm:grid-cols-2\"><div data-v-9d4a49e6=\"\" class=\"sm:col-span-2\"><label data-v-9d4a49e6=\"\" for=\"fyo-full-name\" class=\"mb-2 block text-sm font-semibold text-base-content\">Full name</label><input data-v-9d4a49e6=\"\" id=\"fyo-full-name\" type=\"text\" autocomplete=\"name\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-email\" class=\"mb-2 block text-sm font-semibold text-base-content\">Email address</label><input data-v-9d4a49e6=\"\" id=\"fyo-email\" type=\"email\" autocomplete=\"email\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-phone\" class=\"mb-2 block text-sm font-semibold text-base-content\">Phone or WhatsApp number</label><input data-v-9d4a49e6=\"\" id=\"fyo-phone\" type=\"tel\" autocomplete=\"tel\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-country\" class=\"mb-2 block text-sm font-semibold text-base-content\">Current country of residence</label><input data-v-9d4a49e6=\"\" id=\"fyo-country\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-nationality\" class=\"mb-2 block text-sm font-semibold text-base-content\">Nationality</label><input data-v-9d4a49e6=\"\" id=\"fyo-nationality\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-dob\" class=\"mb-2 block text-sm font-semibold text-base-content\">Date of birth</label><input data-v-9d4a49e6=\"\" id=\"fyo-dob\" type=\"date\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div></div></div><div data-v-9d4a49e6=\"\" class=\"mt-8 flex items-center justify-between gap-4\"><span data-v-9d4a49e6=\"\"></span><button data-v-9d4a49e6=\"\" type=\"submit\" class=\"btn btn-primary min-h-0 border-0 px-7 py-3.5 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Continue </button></div><div data-v-9d4a49e6=\"\" class=\"mt-6\" aria-hidden=\"true\"><label data-v-9d4a49e6=\"\" class=\"sr-only\" for=\"fyo-website\">Website (do not fill)</label><input data-v-9d4a49e6=\"\" id=\"fyo-website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\" class=\"sr-only\" style=\"\"></div></form></div></div></div></div></dialog>",
+        "assets": {
+          "images": [],
+          "fonts": [
+            "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+          ],
+          "backgrounds": [
+            "none, url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E\")"
+          ],
+          "media": []
+        },
+        "screenshot": "/tmp/browser/uniserv/source/destinations-phone-cta-popup.png",
+        "dom": "/tmp/browser/uniserv/source/destinations-phone-cta-popup.html",
+        "next_step": "not attempted; stopped before entering personal information or submitting"
+      }
+    },
+    "status": 200,
+    "title": "Study Abroad Destinations | Uniserv Education",
+    "sections": [
+      {
+        "i": 0,
+        "heading": "Choose a destination that supports your goals.",
+        "id": "",
+        "text": "STUDY ABROAD\n\nChoose a destination that supports your goals.\n\nWhere you study shapes more than your university experience. It can influence the courses available to you, the qualif",
+        "images": [
+          "https://www.uniserveducation.com/assets/eur-BpfZCQMZ.jpg"
+        ]
+      },
+      {
+        "i": 1,
+        "heading": "Your destination is part of your study plan.",
+        "id": "",
+        "text": "MORE THAN A COUNTRY\n\nYour destination is part of your study plan.\n\nA country may first attract you because of its reputation, culture or lifestyle. A stronger decision considers wh",
+        "images": []
+      },
+      {
+        "i": 2,
+        "heading": "Different destinations for different ambitions.",
+        "id": "",
+        "text": "OUR DESTINATION PORTFOLIO\n\nDifferent destinations for different ambitions.\n\nStudents do not all need the same study environment. Uniserv's destination portfolio should give student",
+        "images": []
+      },
+      {
+        "i": 3,
+        "heading": "See what each destination could add to your journey.",
+        "id": "destination-portfolio",
+        "text": "EXPLORE DESTINATIONS\n\nSee what each destination could add to your journey.\n\nEvery destination offers a different academic environment and student experience. Explore the options av",
+        "images": [
+          "https://www.uniserveducation.com/assets/uk-B4QSfeBQ.jpg",
+          "https://www.uniserveducation.com/assets/canada-CPt7CQqH.jpg",
+          "https://www.uniserveducation.com/assets/aus-u_Hfohbt.jpg",
+          "https://www.uniserveducation.com/assets/ireland-fMcKXCsN.jpg"
+        ]
+      },
+      {
+        "i": 4,
+        "heading": "What do you want your destination to make possible?",
+        "id": "",
+        "text": "START WITH YOUR GOALS\n\nWhat do you want your destination to make possible?\n\nRather than beginning with a country name, begin with what you need from your education and student expe",
+        "images": []
+      },
+      {
+        "i": 5,
+        "heading": "Questions worth asking before you decide.",
+        "id": "",
+        "text": "COMPARE THE FULL PICTURE\n\nQuestions worth asking before you decide.\n\nA practical comparison framework helps you weigh academic and practical factors together rather than focusing o",
+        "images": []
+      },
+      {
+        "i": 6,
+        "heading": "You do not need to compare every option alone.",
+        "id": "",
+        "text": "FROM INTEREST TO A SHORTLIST\n\nYou do not need to compare every option alone.\n\nA counsellor can help you organise the information around your qualifications, course interests, desti",
+        "images": []
+      },
+      {
+        "i": 7,
+        "heading": "Tell us what you want from your study experience.",
+        "id": "",
+        "text": "FIND YOUR DIRECTION\n\nTell us what you want from your study experience.\n\nShare your qualifications, preferred course, budget, destination interests and intended intake. We will use ",
+        "images": []
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.uniserveducation.com/",
+        "aria": "Uniserv Education \u2014 home"
+      },
+      {
+        "text": "Study Abroad",
+        "href": "https://www.uniserveducation.com/destinations",
+        "aria": null
+      },
+      {
+        "text": "University Partners",
+        "href": "https://www.uniserveducation.com/universities",
+        "aria": null
+      },
+      {
+        "text": "Events",
+        "href": "https://www.uniserveducation.com/events",
+        "aria": null
+      },
+      {
+        "text": "About Us",
+        "href": "https://www.uniserveducation.com/about",
+        "aria": null
+      }
+    ],
+    "media": [],
+    "scroll_positions": [
+      {
+        "y": 658,
+        "visible_headings": [
+          "Your destination is part of your study plan."
+        ]
+      },
+      {
+        "y": 658,
+        "visible_headings": [
+          "Your destination is part of your study plan.",
+          "Academic fit",
+          "Financial reality",
+          "Application timing"
+        ]
+      },
+      {
+        "y": 1316,
+        "visible_headings": [
+          "Application timing",
+          "Student experience",
+          "Different destinations for different ambitions."
+        ]
+      },
+      {
+        "y": 1974,
+        "visible_headings": [
+          "Different destinations for different ambitions.",
+          "The destination should fit the student."
+        ]
+      },
+      {
+        "y": 2632,
+        "visible_headings": [
+          "The student should not be forced to fit a fashionable destination.",
+          "See what each destination could add to your journey."
+        ]
+      },
+      {
+        "y": 3290,
+        "visible_headings": [
+          "See what each destination could add to your journey.",
+          "United Kingdom"
+        ]
+      },
+      {
+        "y": 3948,
+        "visible_headings": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "y": 4606,
+        "visible_headings": [
+          "Canada"
+        ]
+      },
+      {
+        "y": 5264,
+        "visible_headings": [
+          "Australia"
+        ]
+      },
+      {
+        "y": 5922,
+        "visible_headings": [
+          "Ireland"
+        ]
+      },
+      {
+        "y": 6580,
+        "visible_headings": [
+          "New Zealand"
+        ]
+      },
+      {
+        "y": 7238,
+        "visible_headings": [
+          "United States"
+        ]
+      },
+      {
+        "y": 7896,
+        "visible_headings": [
+          "What do you want your destination to make possible?",
+          "Find a course in my chosen field"
+        ]
+      },
+      {
+        "y": 8554,
+        "visible_headings": [
+          "Find a course in my chosen field",
+          "Explore undergraduate options",
+          "Progress to postgraduate study",
+          "Compare different entry pathways",
+          "Consider tuition and living costs"
+        ]
+      },
+      {
+        "y": 9212,
+        "visible_headings": [
+          "Consider tuition and living costs",
+          "Study in a particular type of city",
+          "Plan for a specific intake",
+          "Explore scholarship and funding possibilities"
+        ]
+      },
+      {
+        "y": 9870,
+        "visible_headings": [
+          "Questions worth asking before you decide.",
+          "Academic plan"
+        ]
+      },
+      {
+        "y": 10528,
+        "visible_headings": [
+          "Academic plan",
+          "Practical plan"
+        ]
+      },
+      {
+        "y": 11186,
+        "visible_headings": [
+          "You do not need to compare every option alone."
+        ]
+      },
+      {
+        "y": 11844,
+        "visible_headings": [
+          "You do not need to compare every option alone."
+        ]
+      },
+      {
+        "y": 12502,
+        "visible_headings": [
+          "Tell us what you want from your study experience."
+        ]
+      },
+      {
+        "y": 13160,
+        "visible_headings": [
+          "Tell us what you want from your study experience."
+        ]
+      },
+      {
+        "y": 13818,
+        "visible_headings": []
+      },
+      {
+        "y": 14476,
+        "visible_headings": []
+      },
+      {
+        "y": 14482,
+        "visible_headings": []
+      }
+    ],
+    "scroll": {
+      "scrollHeight": 15326,
+      "steps": 24,
+      "bottom_y": 14482
+    }
+  },
+  {
+    "route": "/universities",
+    "layout": "phone",
+    "url": "https://www.uniserveducation.com/universities",
+    "screenshots": [
+      "/tmp/browser/uniserv/source/universities-phone-top.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-01.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-02.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-03.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-04.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-05.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-06.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-07.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-08.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-09.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-10.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-11.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-12.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-13.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-14.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-15.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-16.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-17.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-18.png",
+      "/tmp/browser/uniserv/source/universities-phone-scroll-19.png",
+      "/tmp/browser/uniserv/source/universities-phone-returned-top.png"
+    ],
+    "controls": {
+      "mobile_navigation": {
+        "status": "failed_or_blocked",
+        "detail": "Page.wait_for_function: Timeout 4000ms exceeded."
+      },
+      "hero_cta": {
+        "status": "passed",
+        "trigger": "Talk to a counsellor",
+        "dialog": "<dialog data-v-c6d60915=\"\" class=\"counsellor-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"counsellor-modal-title\" open=\"\"><div data-v-c6d60915=\"\" class=\"flex max-h-[90vh] flex-col rounded-box bg-base-100\"><div data-v-c6d60915=\"\" class=\"flex items-center justify-between gap-4 border-b border-secondary/20 px-6 py-4 sm:px-8\"><div data-v-c6d60915=\"\"><h2 data-v-c6d60915=\"\" id=\"counsellor-modal-title\" class=\"text-xl font-bold tracking-tight text-base-content\"> Find your university options </h2><p data-v-c6d60915=\"\" class=\"mt-1 text-sm text-neutral/70\"> Tell us about your plans and we'll help identify options worth exploring. </p></div><button data-v-c6d60915=\"\" type=\"button\" class=\"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-label=\"Close\"><svg data-v-c6d60915=\"\" class=\"h-6 w-6\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path data-v-c6d60915=\"\" d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"></path></svg></button></div><div data-v-c6d60915=\"\" class=\"overflow-y-auto px-6 py-6 sm:px-8\"><div data-v-9d4a49e6=\"\" data-v-c6d60915=\"\"><div data-v-9d4a49e6=\"\" class=\"rounded-box border border-secondary/25 bg-base-100 p-6 shadow-[0_10px_30px_-22px_rgba(26,26,26,0.35)] lg:p-8\"><div data-v-9d4a49e6=\"\" class=\"mb-8\"><div data-v-9d4a49e6=\"\" class=\"flex items-center justify-between gap-4\"><p data-v-9d4a49e6=\"\" class=\"text-sm font-semibold text-base-content\"> Step 1 of 6</p><p data-v-9d4a49e6=\"\" class=\"text-sm text-neutral/70\">Personal information</p></div><div data-v-9d4a49e6=\"\" class=\"mt-3 flex h-2 overflow-hidden rounded-full bg-base-300\" role=\"progressbar\" aria-valuenow=\"17\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-label=\"Questionnaire progress\"><div data-v-9d4a49e6=\"\" class=\"h-full rounded-full bg-primary transition-all duration-300\" style=\"width: 17%;\"></div></div></div><form data-v-9d4a49e6=\"\" novalidate=\"\"><div data-v-9d4a49e6=\"\" class=\"space-y-6\"><p data-v-9d4a49e6=\"\" class=\"text-lg font-bold tracking-tight text-base-content\">Personal information</p><div data-v-9d4a49e6=\"\" class=\"grid gap-5 sm:grid-cols-2\"><div data-v-9d4a49e6=\"\" class=\"sm:col-span-2\"><label data-v-9d4a49e6=\"\" for=\"fyo-full-name\" class=\"mb-2 block text-sm font-semibold text-base-content\">Full name</label><input data-v-9d4a49e6=\"\" id=\"fyo-full-name\" type=\"text\" autocomplete=\"name\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-email\" class=\"mb-2 block text-sm font-semibold text-base-content\">Email address</label><input data-v-9d4a49e6=\"\" id=\"fyo-email\" type=\"email\" autocomplete=\"email\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-phone\" class=\"mb-2 block text-sm font-semibold text-base-content\">Phone or WhatsApp number</label><input data-v-9d4a49e6=\"\" id=\"fyo-phone\" type=\"tel\" autocomplete=\"tel\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-country\" class=\"mb-2 block text-sm font-semibold text-base-content\">Current country of residence</label><input data-v-9d4a49e6=\"\" id=\"fyo-country\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-nationality\" class=\"mb-2 block text-sm font-semibold text-base-content\">Nationality</label><input data-v-9d4a49e6=\"\" id=\"fyo-nationality\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-dob\" class=\"mb-2 block text-sm font-semibold text-base-content\">Date of birth</label><input data-v-9d4a49e6=\"\" id=\"fyo-dob\" type=\"date\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div></div></div><div data-v-9d4a49e6=\"\" class=\"mt-8 flex items-center justify-between gap-4\"><span data-v-9d4a49e6=\"\"></span><button data-v-9d4a49e6=\"\" type=\"submit\" class=\"btn btn-primary min-h-0 border-0 px-7 py-3.5 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Continue </button></div><div data-v-9d4a49e6=\"\" class=\"mt-6\" aria-hidden=\"true\"><label data-v-9d4a49e6=\"\" class=\"sr-only\" for=\"fyo-website\">Website (do not fill)</label><input data-v-9d4a49e6=\"\" id=\"fyo-website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\" class=\"sr-only\" style=\"\"></div></form></div></div></div></div></dialog>",
+        "assets": {
+          "images": [],
+          "fonts": [
+            "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+          ],
+          "backgrounds": [
+            "none, url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E\")"
+          ],
+          "media": []
+        },
+        "screenshot": "/tmp/browser/uniserv/source/universities-phone-cta-popup.png",
+        "dom": "/tmp/browser/uniserv/source/universities-phone-cta-popup.html",
+        "next_step": "not attempted; stopped before entering personal information or submitting"
+      }
+    },
+    "status": 200,
+    "title": "University Partners | Uniserv Education",
+    "sections": [
+      {
+        "i": 0,
+        "heading": "Explore universities across our study destinations.",
+        "id": "",
+        "text": "UNIVERSITY PARTNERS\n\nExplore universities across our study destinations.\n\nBrowse institutions in Uniserv's university portfolio and discover where your qualifications, interests an",
+        "images": [
+          "https://www.uniserveducation.com/assets/canada-CPt7CQqH.jpg"
+        ]
+      },
+      {
+        "i": 1,
+        "heading": "Start with the university\u2014or start with your goals.",
+        "id": "",
+        "text": "FIND AN INSTITUTION\n\nStart with the university\u2014or start with your goals.\n\nExplore the universities currently available through Uniserv. Selecting an institution will allow you to c",
+        "images": []
+      },
+      {
+        "i": 2,
+        "heading": "Algoma University",
+        "id": "directory",
+        "text": "Search universities\nCountry or destination\nAll countries\nAustralia\nCanada\nNew Zealand\nUnited Kingdom\nUnited Kingdom / Canada\nSort\nRecommended\nUniversity name: A\u2013Z\nUniversity name: ",
+        "images": []
+      },
+      {
+        "i": 3,
+        "heading": "Not sure which university fits your plans?",
+        "id": "",
+        "text": "FIND YOUR OPTIONS\n\nNot sure which university fits your plans?\n\nTell us about your qualifications, course interests, preferred destinations, budget and intended intake. We will help",
+        "images": []
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.uniserveducation.com/",
+        "aria": "Uniserv Education \u2014 home"
+      },
+      {
+        "text": "Study Abroad",
+        "href": "https://www.uniserveducation.com/destinations",
+        "aria": null
+      },
+      {
+        "text": "University Partners",
+        "href": "https://www.uniserveducation.com/universities",
+        "aria": null
+      },
+      {
+        "text": "Events",
+        "href": "https://www.uniserveducation.com/events",
+        "aria": null
+      },
+      {
+        "text": "About Us",
+        "href": "https://www.uniserveducation.com/about",
+        "aria": null
+      }
+    ],
+    "media": [],
+    "scroll_positions": [
+      {
+        "y": 658,
+        "visible_headings": [
+          "Start with the university\u2014or start with your goals."
+        ]
+      },
+      {
+        "y": 658,
+        "visible_headings": []
+      },
+      {
+        "y": 1316,
+        "visible_headings": [
+          "Algoma University",
+          "Camosun College"
+        ]
+      },
+      {
+        "y": 1974,
+        "visible_headings": [
+          "Camosun College",
+          "ILAC Education Group",
+          "Lakehead University"
+        ]
+      },
+      {
+        "y": 2632,
+        "visible_headings": [
+          "Lakehead University",
+          "McMaster University",
+          "North York Academy"
+        ]
+      },
+      {
+        "y": 3290,
+        "visible_headings": [
+          "North York Academy",
+          "Northern Lights College",
+          "Queen's University"
+        ]
+      },
+      {
+        "y": 3948,
+        "visible_headings": [
+          "Queen's University",
+          "Queens University",
+          "Saint Mary's University"
+        ]
+      },
+      {
+        "y": 4606,
+        "visible_headings": [
+          "Saint Mary's University",
+          "University of Northern British Columbia"
+        ]
+      },
+      {
+        "y": 5264,
+        "visible_headings": [
+          "Acadia University",
+          "SAE Institute"
+        ]
+      },
+      {
+        "y": 5922,
+        "visible_headings": [
+          "University of Salford",
+          "Alexander College"
+        ]
+      },
+      {
+        "y": 6580,
+        "visible_headings": [
+          "Keele University",
+          "Victoria University"
+        ]
+      },
+      {
+        "y": 7238,
+        "visible_headings": [
+          "Braemar College",
+          "Melbourne Institute of Technology"
+        ]
+      },
+      {
+        "y": 7896,
+        "visible_headings": [
+          "Melbourne Institute of Technology",
+          "University of Leicester",
+          "Algonquin College"
+        ]
+      },
+      {
+        "y": 8554,
+        "visible_headings": [
+          "Algonquin College",
+          "Bellerbys College",
+          "EIT Engineering Institute of Technology"
+        ]
+      },
+      {
+        "y": 9212,
+        "visible_headings": [
+          "EIT Engineering Institute of Technology",
+          "Deakin University"
+        ]
+      },
+      {
+        "y": 9870,
+        "visible_headings": [
+          "Not sure which university fits your plans?"
+        ]
+      },
+      {
+        "y": 10528,
+        "visible_headings": []
+      },
+      {
+        "y": 11186,
+        "visible_headings": []
+      },
+      {
+        "y": 11506,
+        "visible_headings": []
+      }
+    ],
+    "scroll": {
+      "scrollHeight": 12350,
+      "steps": 19,
+      "bottom_y": 11506
+    }
+  },
+  {
+    "route": "/events",
+    "layout": "phone",
+    "url": "https://www.uniserveducation.com/events",
+    "screenshots": [
+      "/tmp/browser/uniserv/source/events-phone-top.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-01.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-02.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-03.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-04.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-05.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-06.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-07.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-08.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-09.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-10.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-11.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-12.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-13.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-14.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-15.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-16.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-17.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-18.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-19.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-20.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-21.png",
+      "/tmp/browser/uniserv/source/events-phone-scroll-22.png",
+      "/tmp/browser/uniserv/source/events-phone-returned-top.png"
+    ],
+    "controls": {
+      "mobile_navigation": {
+        "status": "failed_or_blocked",
+        "detail": "Page.wait_for_function: Timeout 4000ms exceeded."
+      },
+      "hero_cta": {
+        "status": "passed",
+        "trigger": "Talk to a counsellor",
+        "dialog": "<dialog data-v-c6d60915=\"\" class=\"counsellor-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"counsellor-modal-title\" open=\"\"><div data-v-c6d60915=\"\" class=\"flex max-h-[90vh] flex-col rounded-box bg-base-100\"><div data-v-c6d60915=\"\" class=\"flex items-center justify-between gap-4 border-b border-secondary/20 px-6 py-4 sm:px-8\"><div data-v-c6d60915=\"\"><h2 data-v-c6d60915=\"\" id=\"counsellor-modal-title\" class=\"text-xl font-bold tracking-tight text-base-content\"> Find your university options </h2><p data-v-c6d60915=\"\" class=\"mt-1 text-sm text-neutral/70\"> Tell us about your plans and we'll help identify options worth exploring. </p></div><button data-v-c6d60915=\"\" type=\"button\" class=\"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-label=\"Close\"><svg data-v-c6d60915=\"\" class=\"h-6 w-6\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path data-v-c6d60915=\"\" d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"></path></svg></button></div><div data-v-c6d60915=\"\" class=\"overflow-y-auto px-6 py-6 sm:px-8\"><div data-v-9d4a49e6=\"\" data-v-c6d60915=\"\"><div data-v-9d4a49e6=\"\" class=\"rounded-box border border-secondary/25 bg-base-100 p-6 shadow-[0_10px_30px_-22px_rgba(26,26,26,0.35)] lg:p-8\"><div data-v-9d4a49e6=\"\" class=\"mb-8\"><div data-v-9d4a49e6=\"\" class=\"flex items-center justify-between gap-4\"><p data-v-9d4a49e6=\"\" class=\"text-sm font-semibold text-base-content\"> Step 1 of 6</p><p data-v-9d4a49e6=\"\" class=\"text-sm text-neutral/70\">Personal information</p></div><div data-v-9d4a49e6=\"\" class=\"mt-3 flex h-2 overflow-hidden rounded-full bg-base-300\" role=\"progressbar\" aria-valuenow=\"17\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-label=\"Questionnaire progress\"><div data-v-9d4a49e6=\"\" class=\"h-full rounded-full bg-primary transition-all duration-300\" style=\"width: 17%;\"></div></div></div><form data-v-9d4a49e6=\"\" novalidate=\"\"><div data-v-9d4a49e6=\"\" class=\"space-y-6\"><p data-v-9d4a49e6=\"\" class=\"text-lg font-bold tracking-tight text-base-content\">Personal information</p><div data-v-9d4a49e6=\"\" class=\"grid gap-5 sm:grid-cols-2\"><div data-v-9d4a49e6=\"\" class=\"sm:col-span-2\"><label data-v-9d4a49e6=\"\" for=\"fyo-full-name\" class=\"mb-2 block text-sm font-semibold text-base-content\">Full name</label><input data-v-9d4a49e6=\"\" id=\"fyo-full-name\" type=\"text\" autocomplete=\"name\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-email\" class=\"mb-2 block text-sm font-semibold text-base-content\">Email address</label><input data-v-9d4a49e6=\"\" id=\"fyo-email\" type=\"email\" autocomplete=\"email\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-phone\" class=\"mb-2 block text-sm font-semibold text-base-content\">Phone or WhatsApp number</label><input data-v-9d4a49e6=\"\" id=\"fyo-phone\" type=\"tel\" autocomplete=\"tel\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-country\" class=\"mb-2 block text-sm font-semibold text-base-content\">Current country of residence</label><input data-v-9d4a49e6=\"\" id=\"fyo-country\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-nationality\" class=\"mb-2 block text-sm font-semibold text-base-content\">Nationality</label><input data-v-9d4a49e6=\"\" id=\"fyo-nationality\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-dob\" class=\"mb-2 block text-sm font-semibold text-base-content\">Date of birth</label><input data-v-9d4a49e6=\"\" id=\"fyo-dob\" type=\"date\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div></div></div><div data-v-9d4a49e6=\"\" class=\"mt-8 flex items-center justify-between gap-4\"><span data-v-9d4a49e6=\"\"></span><button data-v-9d4a49e6=\"\" type=\"submit\" class=\"btn btn-primary min-h-0 border-0 px-7 py-3.5 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Continue </button></div><div data-v-9d4a49e6=\"\" class=\"mt-6\" aria-hidden=\"true\"><label data-v-9d4a49e6=\"\" class=\"sr-only\" for=\"fyo-website\">Website (do not fill)</label><input data-v-9d4a49e6=\"\" id=\"fyo-website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\" class=\"sr-only\" style=\"\"></div></form></div></div></div></div></dialog>",
+        "assets": {
+          "images": [],
+          "fonts": [
+            "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+          ],
+          "backgrounds": [
+            "none, url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E\")"
+          ],
+          "media": []
+        },
+        "screenshot": "/tmp/browser/uniserv/source/events-phone-cta-popup.png",
+        "dom": "/tmp/browser/uniserv/source/events-phone-cta-popup.html",
+        "next_step": "not attempted; stopped before entering personal information or submitting"
+      }
+    },
+    "status": 200,
+    "title": "Events | Uniserv Education",
+    "sections": [
+      {
+        "i": 0,
+        "heading": "Meet us, ask questions and plan your next step.",
+        "id": "",
+        "text": "EVENTS\n\nMeet us, ask questions and plan your next step.\n\nUniversity visits, information sessions and study-abroad events give students a chance to ask real questions, see how the p",
+        "images": []
+      },
+      {
+        "i": 1,
+        "heading": "Already underway \u2014 and you can still join.",
+        "id": "",
+        "text": "RUNNING NOW\n\nAlready underway \u2014 and you can still join.\n\nThese events have started but have not finished yet. Depending on the format, you may still be able to join or register for",
+        "images": [
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/41qk0tm9edqhgpf/plymouth_qtz4yxo6mq.jpg",
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/d7ahtte2463nby8/study_in_canada_2027_intake_qd1x2oms0w.png",
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/jdvkjvl7de1e1s8/georgian_college_yn3x22yd2n.png",
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/i79knkrfo0s74x8/london_meds1_wua7fezx2d.jpg"
+        ]
+      },
+      {
+        "i": 2,
+        "heading": "A calendar worth checking before you decide.",
+        "id": "upcoming-events",
+        "text": "UPCOMING EVENTS\n\nA calendar worth checking before you decide.\n\nWhether you want to meet a university in person or join from anywhere online, these are the sessions currently open f",
+        "images": [
+          "https://www.uniserveducation.com/pb/api/files/pbc_4115066525/iselt6gzinvo3t2/testusaimage_1_97wd9f7uy5.jpg"
+        ]
+      },
+      {
+        "i": 3,
+        "heading": "Earlier sessions and visits.",
+        "id": "",
+        "text": "PAST EVENTS\n\nEarlier sessions and visits.\n\nA record of the conversations we have hosted recently. Past events are not open for registration, but they give a sense of the topics Uni",
+        "images": []
+      },
+      {
+        "i": 4,
+        "heading": "Not sure which event is right for you?",
+        "id": "",
+        "text": "KEEP THE MOMENTUM GOING\n\nNot sure which event is right for you?\n\nEvents are one way to learn. A counsellor can help you understand your options, prepare for applications and identi",
+        "images": []
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.uniserveducation.com/",
+        "aria": "Uniserv Education \u2014 home"
+      },
+      {
+        "text": "Study Abroad",
+        "href": "https://www.uniserveducation.com/destinations",
+        "aria": null
+      },
+      {
+        "text": "University Partners",
+        "href": "https://www.uniserveducation.com/universities",
+        "aria": null
+      },
+      {
+        "text": "Events",
+        "href": "https://www.uniserveducation.com/events",
+        "aria": null
+      },
+      {
+        "text": "About Us",
+        "href": "https://www.uniserveducation.com/about",
+        "aria": null
+      }
+    ],
+    "media": [],
+    "scroll_positions": [
+      {
+        "y": 658,
+        "visible_headings": [
+          "Study in the UK: University of Plymouth",
+          "Already underway \u2014 and you can still join."
+        ]
+      },
+      {
+        "y": 658,
+        "visible_headings": [
+          "Already underway \u2014 and you can still join.",
+          "Study in the UK: University of Plymouth"
+        ]
+      },
+      {
+        "y": 1316,
+        "visible_headings": [
+          "Study in the UK: University of Plymouth"
+        ]
+      },
+      {
+        "y": 1974,
+        "visible_headings": [
+          "Study in Canada - September 2027 Intake"
+        ]
+      },
+      {
+        "y": 2632,
+        "visible_headings": [
+          "Study in Canada: Georgian College"
+        ]
+      },
+      {
+        "y": 3290,
+        "visible_headings": [
+          "Study Medicine in 2027"
+        ]
+      },
+      {
+        "y": 3948,
+        "visible_headings": [
+          "UCAS Applications Ongoing"
+        ]
+      },
+      {
+        "y": 4606,
+        "visible_headings": [
+          "Study in Germany - Applications Ongoing"
+        ]
+      },
+      {
+        "y": 5264,
+        "visible_headings": [
+          "Study in Ireland - Applications Ongoing"
+        ]
+      },
+      {
+        "y": 5922,
+        "visible_headings": [
+          "Study in Ireland - Applications Ongoing",
+          "Study in the UK: January Intake 2027"
+        ]
+      },
+      {
+        "y": 6580,
+        "visible_headings": [
+          "Study in the UK: January Intake 2027"
+        ]
+      },
+      {
+        "y": 7238,
+        "visible_headings": [
+          "Study Abroad: 2027 Intakes Currently Ongoing"
+        ]
+      },
+      {
+        "y": 7896,
+        "visible_headings": [
+          "WHAT NEXT AFTER KCSE? - Inquire Now!"
+        ]
+      },
+      {
+        "y": 8554,
+        "visible_headings": [
+          "A calendar worth checking before you decide."
+        ]
+      },
+      {
+        "y": 9212,
+        "visible_headings": [
+          "Study in the USA - August Intake 2027"
+        ]
+      },
+      {
+        "y": 9870,
+        "visible_headings": [
+          "Earlier sessions and visits.",
+          "Meet the University Representatives: Northern Lights College & University Fraser Valley - Students/Parents Seminar"
+        ]
+      },
+      {
+        "y": 10528,
+        "visible_headings": [
+          "Meet the University Representatives: Northern Lights College & University Fraser Valley - Students/Parents Seminar",
+          "Meet Leah Odada - Carleton University",
+          "St. Lawrence College - Students/Parents Information Session",
+          "Study Abroad Open Day - Kisumu Edition",
+          "St. Lawrence College - Students/Parents Information Session (Eldoret)"
+        ]
+      },
+      {
+        "y": 11186,
+        "visible_headings": [
+          "St. Lawrence College - Students/Parents Information Session (Eldoret)",
+          "Meet Michael Klein: Wilfred Laurier College",
+          "Northeastern University: Global Study Expo Africa",
+          "Study Canadian Programmes in Dubai",
+          "Study in Canada: Georgian College"
+        ]
+      },
+      {
+        "y": 11844,
+        "visible_headings": [
+          "Study in Canada: Georgian College",
+          "Not sure which event is right for you?"
+        ]
+      },
+      {
+        "y": 12502,
+        "visible_headings": []
+      },
+      {
+        "y": 13160,
+        "visible_headings": []
+      },
+      {
+        "y": 13518,
+        "visible_headings": []
+      }
+    ],
+    "scroll": {
+      "scrollHeight": 14362,
+      "steps": 22,
+      "bottom_y": 13518
+    }
+  },
+  {
+    "route": "/about",
+    "layout": "phone",
+    "url": "https://www.uniserveducation.com/about",
+    "screenshots": [
+      "/tmp/browser/uniserv/source/about-phone-top.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-01.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-02.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-03.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-04.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-05.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-06.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-07.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-08.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-09.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-10.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-11.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-12.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-13.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-14.png",
+      "/tmp/browser/uniserv/source/about-phone-scroll-15.png",
+      "/tmp/browser/uniserv/source/about-phone-returned-top.png"
+    ],
+    "controls": {
+      "mobile_navigation": {
+        "status": "failed_or_blocked",
+        "detail": "Page.wait_for_function: Timeout 4000ms exceeded."
+      },
+      "hero_cta": {
+        "status": "passed",
+        "trigger": "Talk to a counsellor",
+        "dialog": "<dialog data-v-c6d60915=\"\" class=\"counsellor-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"counsellor-modal-title\" open=\"\"><div data-v-c6d60915=\"\" class=\"flex max-h-[90vh] flex-col rounded-box bg-base-100\"><div data-v-c6d60915=\"\" class=\"flex items-center justify-between gap-4 border-b border-secondary/20 px-6 py-4 sm:px-8\"><div data-v-c6d60915=\"\"><h2 data-v-c6d60915=\"\" id=\"counsellor-modal-title\" class=\"text-xl font-bold tracking-tight text-base-content\"> Find your university options </h2><p data-v-c6d60915=\"\" class=\"mt-1 text-sm text-neutral/70\"> Tell us about your plans and we'll help identify options worth exploring. </p></div><button data-v-c6d60915=\"\" type=\"button\" class=\"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" aria-label=\"Close\"><svg data-v-c6d60915=\"\" class=\"h-6 w-6\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path data-v-c6d60915=\"\" d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"></path></svg></button></div><div data-v-c6d60915=\"\" class=\"overflow-y-auto px-6 py-6 sm:px-8\"><div data-v-9d4a49e6=\"\" data-v-c6d60915=\"\"><div data-v-9d4a49e6=\"\" class=\"rounded-box border border-secondary/25 bg-base-100 p-6 shadow-[0_10px_30px_-22px_rgba(26,26,26,0.35)] lg:p-8\"><div data-v-9d4a49e6=\"\" class=\"mb-8\"><div data-v-9d4a49e6=\"\" class=\"flex items-center justify-between gap-4\"><p data-v-9d4a49e6=\"\" class=\"text-sm font-semibold text-base-content\"> Step 1 of 6</p><p data-v-9d4a49e6=\"\" class=\"text-sm text-neutral/70\">Personal information</p></div><div data-v-9d4a49e6=\"\" class=\"mt-3 flex h-2 overflow-hidden rounded-full bg-base-300\" role=\"progressbar\" aria-valuenow=\"17\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-label=\"Questionnaire progress\"><div data-v-9d4a49e6=\"\" class=\"h-full rounded-full bg-primary transition-all duration-300\" style=\"width: 17%;\"></div></div></div><form data-v-9d4a49e6=\"\" novalidate=\"\"><div data-v-9d4a49e6=\"\" class=\"space-y-6\"><p data-v-9d4a49e6=\"\" class=\"text-lg font-bold tracking-tight text-base-content\">Personal information</p><div data-v-9d4a49e6=\"\" class=\"grid gap-5 sm:grid-cols-2\"><div data-v-9d4a49e6=\"\" class=\"sm:col-span-2\"><label data-v-9d4a49e6=\"\" for=\"fyo-full-name\" class=\"mb-2 block text-sm font-semibold text-base-content\">Full name</label><input data-v-9d4a49e6=\"\" id=\"fyo-full-name\" type=\"text\" autocomplete=\"name\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-email\" class=\"mb-2 block text-sm font-semibold text-base-content\">Email address</label><input data-v-9d4a49e6=\"\" id=\"fyo-email\" type=\"email\" autocomplete=\"email\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-phone\" class=\"mb-2 block text-sm font-semibold text-base-content\">Phone or WhatsApp number</label><input data-v-9d4a49e6=\"\" id=\"fyo-phone\" type=\"tel\" autocomplete=\"tel\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-country\" class=\"mb-2 block text-sm font-semibold text-base-content\">Current country of residence</label><input data-v-9d4a49e6=\"\" id=\"fyo-country\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-nationality\" class=\"mb-2 block text-sm font-semibold text-base-content\">Nationality</label><input data-v-9d4a49e6=\"\" id=\"fyo-nationality\" type=\"text\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div><div data-v-9d4a49e6=\"\"><label data-v-9d4a49e6=\"\" for=\"fyo-dob\" class=\"mb-2 block text-sm font-semibold text-base-content\">Date of birth</label><input data-v-9d4a49e6=\"\" id=\"fyo-dob\" type=\"date\" class=\"w-full rounded-field border border-secondary/40 bg-base-100 px-4 py-3 text-base text-base-content focus:border-primary focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\" style=\"\"><!----></div></div></div><div data-v-9d4a49e6=\"\" class=\"mt-8 flex items-center justify-between gap-4\"><span data-v-9d4a49e6=\"\"></span><button data-v-9d4a49e6=\"\" type=\"submit\" class=\"btn btn-primary min-h-0 border-0 px-7 py-3.5 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary\"> Continue </button></div><div data-v-9d4a49e6=\"\" class=\"mt-6\" aria-hidden=\"true\"><label data-v-9d4a49e6=\"\" class=\"sr-only\" for=\"fyo-website\">Website (do not fill)</label><input data-v-9d4a49e6=\"\" id=\"fyo-website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\" class=\"sr-only\" style=\"\"></div></form></div></div></div></div></dialog>",
+        "assets": {
+          "images": [],
+          "fonts": [
+            "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+          ],
+          "backgrounds": [
+            "none, url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E\")"
+          ],
+          "media": []
+        },
+        "screenshot": "/tmp/browser/uniserv/source/about-phone-cta-popup.png",
+        "dom": "/tmp/browser/uniserv/source/about-phone-cta-popup.html",
+        "next_step": "not attempted; stopped before entering personal information or submitting"
+      }
+    },
+    "status": 200,
+    "title": "About Uniserv | Uniserv Education",
+    "sections": [
+      {
+        "i": 0,
+        "heading": "Guidance shaped around the student.",
+        "id": "",
+        "text": "ABOUT UNISERV\n\nGuidance shaped around the student.\n\nUniserv Education helps students and families explore international study options, compare universities and prepare for the step",
+        "images": [
+          "https://www.uniserveducation.com/assets/consult-DZFzyROL.jpg"
+        ]
+      },
+      {
+        "i": 1,
+        "heading": "A practical connection between students and international education.",
+        "id": "",
+        "text": "WHO WE ARE\n\nA practical connection between students and international education.\n\nChoosing where and what to study involves academic, financial and personal decisions. We help stud",
+        "images": []
+      },
+      {
+        "i": 2,
+        "heading": "People behind the guidance.",
+        "id": "team",
+        "text": "MEET THE TEAM\n\nPeople behind the guidance.\n\nOur team brings together leadership, regional knowledge and study-destination expertise to help students understand their options and pr",
+        "images": []
+      },
+      {
+        "i": 3,
+        "heading": "Listen first. Compare carefully. Plan clearly.",
+        "id": "",
+        "text": "OUR APPROACH\n\nListen first. Compare carefully. Plan clearly.\n\nA suitable option should reflect the student's qualifications, course interests, preferred study level, budget, intend",
+        "images": []
+      },
+      {
+        "i": 4,
+        "heading": "Meet us where your journey begins.",
+        "id": "offices",
+        "text": "OUR LOCATIONS\n\nMeet us where your journey begins.\n\nConnect with the Uniserv office closest to you for guidance on study destinations, university options and application preparation",
+        "images": []
+      },
+      {
+        "i": 5,
+        "heading": "Ready to explore your study options?",
+        "id": "",
+        "text": "NEXT STEP\n\nReady to explore your study options?\n\nTell us about your qualifications, course interests and preferences. We will help identify university options worth exploring.\n\nFin",
+        "images": []
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.uniserveducation.com/",
+        "aria": "Uniserv Education \u2014 home"
+      },
+      {
+        "text": "Study Abroad",
+        "href": "https://www.uniserveducation.com/destinations",
+        "aria": null
+      },
+      {
+        "text": "University Partners",
+        "href": "https://www.uniserveducation.com/universities",
+        "aria": null
+      },
+      {
+        "text": "Events",
+        "href": "https://www.uniserveducation.com/events",
+        "aria": null
+      },
+      {
+        "text": "About Us",
+        "href": "https://www.uniserveducation.com/about",
+        "aria": null
+      }
+    ],
+    "media": [],
+    "scroll_positions": [
+      {
+        "y": 658,
+        "visible_headings": [
+          "A practical connection between students and international education."
+        ]
+      },
+      {
+        "y": 658,
+        "visible_headings": [
+          "A practical connection between students and international education.",
+          "People behind the guidance."
+        ]
+      },
+      {
+        "y": 1316,
+        "visible_headings": [
+          "People behind the guidance.",
+          "Amin Esmail"
+        ]
+      },
+      {
+        "y": 1974,
+        "visible_headings": [
+          "Amin Esmail",
+          "Jordan Koech",
+          "Anne Wambugu",
+          "Listen first. Compare carefully. Plan clearly."
+        ]
+      },
+      {
+        "y": 2632,
+        "visible_headings": [
+          "Listen first. Compare carefully. Plan clearly.",
+          "Listen first",
+          "Compare carefully"
+        ]
+      },
+      {
+        "y": 3290,
+        "visible_headings": [
+          "Compare carefully",
+          "Plan clearly",
+          "Meet us where your journey begins.",
+          "Kenya"
+        ]
+      },
+      {
+        "y": 3948,
+        "visible_headings": [
+          "Kenya"
+        ]
+      },
+      {
+        "y": 4606,
+        "visible_headings": [
+          "Mauritius"
+        ]
+      },
+      {
+        "y": 5264,
+        "visible_headings": [
+          "Rwanda",
+          "Tanzania",
+          "Uganda"
+        ]
+      },
+      {
+        "y": 5922,
+        "visible_headings": [
+          "Uganda",
+          "United Arab Emirates",
+          "United Kingdom"
+        ]
+      },
+      {
+        "y": 6580,
+        "visible_headings": [
+          "United Kingdom",
+          "Zambia",
+          "Ready to explore your study options?"
+        ]
+      },
+      {
+        "y": 7238,
+        "visible_headings": [
+          "Ready to explore your study options?"
+        ]
+      },
+      {
+        "y": 7896,
+        "visible_headings": []
+      },
+      {
+        "y": 8554,
+        "visible_headings": []
+      },
+      {
+        "y": 8633,
+        "visible_headings": []
+      }
+    ],
+    "scroll": {
+      "scrollHeight": 9477,
+      "steps": 15,
+      "bottom_y": 8633
+    }
+  }
+]

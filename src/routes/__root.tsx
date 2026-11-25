@@ -1,3 +1,4 @@
+import { useMatches as useImportedMatches } from "@tanstack/react-router";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
@@ -75,17 +76,17 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
-    // Replace these placeholders with the app's name and description when first building the app.
+      // Leaf routes provide their own page-specific metadata.
     // Each content route, / included, must still set its own head(). Never add og:image or
     // twitter:image here: every page without its own would inherit the root's preview image.
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Uniserv Education" },
+      { name: "description", content: "Study-abroad guidance, university options, and student support from Uniserv Education." },
+      { name: "author", content: "Uniserv Education" },
+      { property: "og:title", content: "Uniserv Education" },
+      { property: "og:description", content: "Study-abroad guidance, university options, and student support from Uniserv Education." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
@@ -104,13 +105,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   errorComponent: ErrorComponent,
 });
 
+declare module "@tanstack/react-router" {
+  interface StaticDataRouteOption {
+    importedDocument?: {
+      html?: import("react").HTMLAttributes<HTMLHtmlElement> & Record<`data-${string}`, string>;
+      body?: import("react").HTMLAttributes<HTMLBodyElement> & Record<`data-${string}`, string>;
+    };
+  }
+}
+
 function RootShell({ children }: { children: ReactNode }) {
+  const importedDocument = useImportedMatches({ select: matches => matches.at(-1)?.staticData.importedDocument });
   return (
-    <html lang="en">
+    <html lang="en" {...importedDocument?.html}>
       <head>
+        <style href="site-import-inline" precedence="imported-inline">{"@layer imported-inline;"}</style>
         <HeadContent />
       </head>
-      <body>
+      <body {...importedDocument?.body}>
         {children}
         <Scripts />
       </body>
