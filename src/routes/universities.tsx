@@ -155,6 +155,8 @@ function Index() {
                 </div>
               </div>
             </dialog>
+          </main>
+          <ImportedFooterStudyAbroad onOpenCounsellor={openCounsellor} />
           <dialog ref={counsellorDialogRef} onCancel={() => setCounsellorOpen(false)} onClose={() => setCounsellorOpen(false)} onClick={event => { if (event.target === event.currentTarget) setCounsellorOpen(false); }} className="counsellor-dialog" data-v-c6d60915="" role="dialog" aria-modal="true" aria-labelledby="counsellor-modal-title">
             <div className="flex max-h-[90vh] flex-col rounded-box bg-base-100" data-v-c6d60915="">
               <div className={"flex items-center justify-between gap-4 \x62order-b \x62order-secondary/\x320 px-6 py-4 sm:px-8"} data-v-c6d60915="">
