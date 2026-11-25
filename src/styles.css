@@ -153,3 +153,119 @@
     color: var(--color-foreground);
   }
 }
+
+/* site-import tokens: begin (generated; re-import replaces this block) */
+/* Imported clone roles use prefixed Tailwind utilities
+   (bg-site-import-primary, text-site-import-foreground, …); edit the
+   --site-import-* variables to restyle the clone. Unprefixed roles theme new UI. */
+:root {
+  --background: oklch(1 0 0);
+  --site-import-background: oklch(1 0 0);
+  --foreground: oklch(0.21779 0 0);
+  --site-import-foreground: oklch(0.21779 0 0);
+  --primary: oklch(0.71635 0.17065 53.45);
+  --site-import-primary: oklch(0.71635 0.17065 53.45);
+  --primary-foreground: oklch(0.985 0 0);
+  --site-import-primary-foreground: oklch(0.985 0 0);
+  --accent: oklch(0.63037 0.16321 50.09);
+  --site-import-accent: oklch(0.63037 0.16321 50.09);
+  --border: oklch(0.65974 0.00316 264.54 / 0.2);
+  --site-import-border: oklch(0.65974 0.00316 264.54 / 0.2);
+  --muted-foreground: oklch(0.65974 0.00316 264.54 / 0.3);
+  --site-import-muted-foreground: oklch(0.65974 0.00316 264.54 / 0.3);
+  --card: oklch(1 0 0 / 0.2);
+  --site-import-card: oklch(1 0 0 / 0.2);
+  --muted: oklch(0.97043 0.00132 286.38);
+  --site-import-muted: oklch(0.97043 0.00132 286.38);
+}
+/* Design tokens captured from the imported site, registered as Tailwind
+   utilities (bg-<name>, text-<name>, font-<name>). var() values live in
+   the imported stylesheet's :root. */
+@theme inline {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --color-site-import-background: var(--site-import-background);
+  --color-site-import-foreground: var(--site-import-foreground);
+  --color-site-import-primary: var(--site-import-primary);
+  --color-site-import-primary-foreground: var(--site-import-primary-foreground);
+  --color-site-import-accent: var(--site-import-accent);
+  --color-site-import-border: var(--site-import-border);
+  --color-site-import-muted-foreground: var(--site-import-muted-foreground);
+  --color-site-import-card: var(--site-import-card);
+  --color-site-import-muted: var(--site-import-muted);
+  --color-root-bg: var(--root-bg);
+}
+@theme reference {
+  --animate-ping: ping 1s cubic-bezier(0, 0, .2, 1) infinite;
+  --animate-pulse: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite;
+  --animate-spin: spin 1s linear infinite;
+  --blur-sm: 8px;
+  --color-accent: #d4650b;
+  --color-accent-content: #1a1a1a;
+  --color-base-100: #fff;
+  --color-base-200: #f5f5f6;
+  --color-base-300: #e9e9ea;
+  --color-base-content: #1a1a1a;
+  --color-error: #ef4444;
+  --color-error-content: #fff;
+  --color-info: #3b82f6;
+  --color-info-content: #fff;
+  --color-neutral: #1a1a1a;
+  --color-neutral-content: #fff;
+  --color-primary: #f38020;
+  --color-primary-content: #1a1a1a;
+  --color-secondary: #919294;
+  --color-secondary-content: #1a1a1a;
+  --color-success: #22c55e;
+  --color-success-content: #1a1a1a;
+  --color-warning: #f59e0b;
+  --color-warning-content: #1a1a1a;
+  --container-2xl: 42rem;
+  --container-3xl: 48rem;
+  --container-4xl: 56rem;
+  --container-5xl: 64rem;
+  --container-6xl: 72rem;
+  --container-7xl: 80rem;
+  --container-lg: 32rem;
+  --container-md: 28rem;
+  --container-sm: 24rem;
+  --container-xl: 36rem;
+  --container-xs: 20rem;
+  --ease-out: cubic-bezier(0, 0, .2, 1);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --leading-relaxed: 1.625;
+  --leading-tight: 1.25;
+  --radius-box: .5rem;
+  --radius-field: .5rem;
+  --radius-selector: .25rem;
+  --radius-sm: .25rem;
+  --spacing: .25rem;
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: calc(2 / 1.5);
+  --text-3xl: 1.875rem;
+  --text-3xl--line-height: calc(2.25 / 1.875);
+  --text-4xl: 2.25rem;
+  --text-4xl--line-height: calc(2.5 / 2.25);
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 1;
+  --text-6xl: 3.75rem;
+  --text-6xl--line-height: 1;
+  --text-base: 1rem;
+  --text-base--line-height: calc(1.5 / 1);
+  --text-lg: 1.125rem;
+  --text-lg--line-height: calc(1.75 / 1.125);
+  --text-sm: .875rem;
+  --text-sm--line-height: calc(1.25 / .875);
+  --text-xl: 1.25rem;
+  --text-xl--line-height: calc(1.75 / 1.25);
+  --text-xs: .75rem;
+  --text-xs--line-height: calc(1 / .75);
+  --tracking-tight: -.025em;
+  --tracking-wide: .025em;
+  --tracking-wider: .05em;
+  --tracking-widest: .1em;
+}
+/* site-import tokens: end */
