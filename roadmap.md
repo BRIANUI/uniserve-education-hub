@@ -7,3 +7,11 @@
 - [x] Add page-specific metadata and the route-structure rule.
 - [x] Save the source/preview observation ledger.
 - [x] Recheck imported pages and controls on desktop and mobile; confirm build diagnostics.
+
+## Company profile redesign
+
+- [x] Review the supplied company profile and identify public-facing facts, avoiding confidential identifiers and banking information.
+- [ ] Agree the redesign plan and confirm the current mobile contact number.
+- [ ] Replace unrelated Uniserv branding, copy, institutions, and event content with Wmeir Winja & Partners information.
+- [ ] Align navigation and pages around destinations, partner institutions, student support, company information, and contact.
+- [ ] Verify the updated site on desktop and phone, refresh the observation notes, and confirm diagnostics.
