@@ -1,21 +1,41 @@
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import capturedCSS from "../styles/pages/destinations.css?raw";
 
 export const Route = createFileRoute("/destinations")({
-  head: () => ({ meta: [{ title: "Study Abroad Destinations | Uniserv Education" }] }),
+  head: () => ({
+    meta: [
+      { title: "Study Abroad Destinations | Uniserv Education" },
+      { name: "description", content: "Compare study destinations and consider universities, costs, courses, and student life with Uniserv Education." },
+      { property: "og:title", content: "Study Abroad Destinations | Uniserv Education" },
+      { property: "og:description", content: "Compare study destinations and consider universities, costs, courses, and student life with Uniserv Education." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   staticData: { importedDocument: { html: { "lang": "en" }, body: {  } } },
   component: Index,
 });
 
 function Index() {
+  const [counsellorOpen, setCounsellorOpen] = useState(false);
+  const counsellorDialogRef = useRef<HTMLDialogElement | null>(null);
+  const openCounsellor = () => setCounsellorOpen(true);
+
+  useEffect(() => {
+    const dialog = counsellorDialogRef.current;
+    if (!dialog) return;
+    if (counsellorOpen && !dialog.open) dialog.showModal();
+    if (!counsellorOpen && dialog.open) dialog.close();
+  }, [counsellorOpen]);
+
   useImportedLayout();
   return (
     <>
       <style>{capturedCSS}</style>
       <div id="app">
         <div>
-          <ImportedHeader />
+          <ImportedHeader currentPath="/destinations" onOpenCounsellor={openCounsellor} />
           <main data-v-c7af1ba9="">
             <ImportedSectionChooseADestinationThat />
             <ImportedSectionYourDestinationIsPart />
@@ -39,14 +59,14 @@ function Index() {
             </section>
           </main>
           <ImportedFooterStudyAbroad />
-          <dialog className="counsellor-dialog" data-v-c6d60915="" role="dialog" aria-modal="true" aria-labelledby="counsellor-modal-title">
+          <dialog ref={counsellorDialogRef} onCancel={() => setCounsellorOpen(false)} onClose={() => setCounsellorOpen(false)} onClick={event => { if (event.target === event.currentTarget) setCounsellorOpen(false); }} className="counsellor-dialog" data-v-c6d60915="" role="dialog" aria-modal="true" aria-labelledby="counsellor-modal-title">
             <div className="flex max-h-[90vh] flex-col rounded-box bg-base-100" data-v-c6d60915="">
               <div className={"flex items-center justify-between gap-4 \x62order-b \x62order-secondary/\x320 px-6 py-4 sm:px-8"} data-v-c6d60915="">
                 <div data-v-c6d60915="">
                   <h2 className="text-xl font-bold tracking-tight text-base-content" data-v-c6d60915="" id="counsellor-modal-title"> Find your university options </h2>
                   <p className={"mt-1 text-sm \x74ext-neutral/\x370"} data-v-c6d60915=""> Tell us about your plans and we'll help identify options worth exploring. </p>
                 </div>
-                <button className={"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary"} data-v-c6d60915="" type="button" aria-label="Close">
+                <button className={"flex h-11 w-11 shrink-0 items-center justify-center rounded-field text-neutral transition-colors duration-150 hover:bg-base-200 \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary"} onClick={() => setCounsellorOpen(false)} data-v-c6d60915="" type="button" aria-label="Close">
                   <svg className="h-6 w-6" data-v-c6d60915="" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path data-v-c6d60915="" d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
                   </svg>
@@ -114,7 +134,8 @@ function Index() {
   );
 }
 
-function ImportedHeader() {
+function ImportedHeader({ currentPath, onOpenCounsellor }: { currentPath: string; onOpenCounsellor: () => void }) {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <header className={"sticky top-0 z-40 \x62order-b \x62order-secondary/\x320 \x62g-base-100/\x330"} data-v-9790ec4b="" data-site-import-scroll-header={"{\"desktop\":{\"added\":[\"shadow-[0_6px_24px_-18px_rgba(26,26,26,0.45)]\"],\"removed\":[],\"threshold\":648},\"mobile\":{\"added\":[\"shadow-[0_6px_24px_-18px_rgba(26,26,26,0.45)]\"],\"removed\":[],\"threshold\":633}}"}>
       <div className="mx-auto flex h-16 max-w-7xl items-center px-6 sm:px-8 lg:h-[4.5rem]" data-v-9790ec4b="">
@@ -124,7 +145,7 @@ function ImportedHeader() {
         <nav className={"hidden flex-1 justify-center \x6cg:\x66lex"} data-v-9790ec4b="" aria-label="Primary">
           <ul className="flex items-center gap-1 xl:gap-2" data-v-9790ec4b="">
             <li data-v-9790ec4b="">
-              <a className="nav-link nav-link--active" aria-current="page" data-v-9790ec4b="" href="#">Study Abroad</a>
+              <a className="nav-link nav-link--active" aria-current="page" data-v-9790ec4b="" href="/destinations">Study Abroad</a>
             </li>
             <li data-v-9790ec4b="">
               <a className="nav-link" data-v-9790ec4b="" href="/universities">University Partners</a>
@@ -138,14 +159,25 @@ function ImportedHeader() {
           </ul>
         </nav>
         <div className={"hidden \x6cg:\x62lock"} data-v-9790ec4b="">
-          <button className={"btn btn-primary min-h-0 \x62order-0 px-5 py-2.5 text-sm font-semibold transition-colors duration-150 hover:bg-accent \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary"} data-v-9790ec4b="" type="button"> Talk to a counsellor </button>
+          <button className={"btn btn-primary min-h-0 \x62order-0 px-5 py-2.5 text-sm font-semibold transition-colors duration-150 hover:bg-accent \x66ocus-visible:\x6futline \x66ocus-visible:\x6futline-2 \x66ocus-visible:\x6futline-offset-2 \x66ocus-visible:\x6futline-primary"} onClick={onOpenCounsellor} data-v-9790ec4b="" type="button"> Talk to a counsellor </button>
         </div>
-        <button className={"btn btn-ghost ml-auto h-11 min-h-0 w-11 \x62order-0 p-0 \x6cg:\x68idden"} data-v-9790ec4b="" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu">
+        <button className={"btn btn-ghost ml-auto h-11 min-h-0 w-11 \x62order-0 p-0 \x6cg:\x68idden"} data-v-9790ec4b="" type="button" onClick={() => setMobileMenuOpen(open => !open)} onKeyDown={event => { if (event.key === "Escape") setMobileMenuOpen(false); }} aria-expanded={mobileMenuOpen} aria-controls="mobile-menu" aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}>
           <svg className="h-6 w-6" data-v-9790ec4b="" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path data-v-9790ec4b="" d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+            {mobileMenuOpen ? <path data-v-9790ec4b="" d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /> : <path data-v-9790ec4b="" d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />}
           </svg>
         </button>
       </div>
+      {mobileMenuOpen && <div id="mobile-menu" className="lg:hidden">
+        <nav className={"border-t border-secondary/20 bg-base-100 px-6 pb-6 pt-2 sm:px-8"} aria-label="Mobile" onKeyDown={event => { if (event.key === "Escape") setMobileMenuOpen(false); }}>
+          <ul className="flex flex-col">
+            <li><a className={currentPath === "/destinations" ? "mobile-link mobile-link--active" : "mobile-link"} aria-current={currentPath === "/destinations" ? "page" : undefined} href="/destinations" onClick={() => setMobileMenuOpen(false)}>Study Abroad</a></li>
+            <li><a className={currentPath === "/universities" ? "mobile-link mobile-link--active" : "mobile-link"} aria-current={currentPath === "/universities" ? "page" : undefined} href="/universities" onClick={() => setMobileMenuOpen(false)}>University Partners</a></li>
+            <li><a className={currentPath === "/events" ? "mobile-link mobile-link--active" : "mobile-link"} aria-current={currentPath === "/events" ? "page" : undefined} href="/events" onClick={() => setMobileMenuOpen(false)}>Events</a></li>
+            <li><a className={currentPath === "/about" ? "mobile-link mobile-link--active" : "mobile-link"} aria-current={currentPath === "/about" ? "page" : undefined} href="/about" onClick={() => setMobileMenuOpen(false)}>About Us</a></li>
+          </ul>
+          <button className={"btn btn-primary mt-4 min-h-0 w-full border-0 py-3 text-base font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"} type="button" onClick={() => { setMobileMenuOpen(false); onOpenCounsellor(); }}>Talk to a counsellor</button>
+        </nav>
+      </div>}
     </header>
   );
 }
