@@ -1,0 +1,106 @@
+{
+  "team_tabs": [
+    {
+      "label": "Leadership",
+      "pressed": "true",
+      "cards": [
+        {
+          "name": "Amin Esmail",
+          "title": "Chief Executive Officer",
+          "initials": "AE"
+        },
+        {
+          "name": "Jordan Koech",
+          "title": "Senior VP of Marketing & Procurement",
+          "initials": "JK"
+        },
+        {
+          "name": "Anne Wambugu",
+          "title": "VP of Canadian Recruitment",
+          "initials": "AW"
+        }
+      ],
+      "screenshot": "/tmp/browser/uniserv/source-controls/about-leadership.png"
+    },
+    {
+      "label": "Regional leaders",
+      "pressed": "true",
+      "cards": [
+        {
+          "name": "Chris Muga",
+          "title": "Regional Leader",
+          "initials": "CM"
+        },
+        {
+          "name": "Bethwel Kibet",
+          "title": "Regional Leader",
+          "initials": "BK"
+        },
+        {
+          "name": "Leticia Epae",
+          "title": "Regional Leader",
+          "initials": "LE"
+        },
+        {
+          "name": "Alima Sethi",
+          "title": "Regional Leader",
+          "initials": "AS"
+        },
+        {
+          "name": "Aliya Fazal",
+          "title": "Regional Leader",
+          "initials": "AF"
+        },
+        {
+          "name": "Ian Kaayo",
+          "title": "Regional Leader",
+          "initials": "IK"
+        },
+        {
+          "name": "Linda Maliki",
+          "title": "Regional Leader",
+          "initials": "LM"
+        }
+      ],
+      "screenshot": "/tmp/browser/uniserv/source-controls/about-regional-leaders.png"
+    },
+    {
+      "label": "Counselling & experts",
+      "pressed": "true",
+      "cards": [
+        {
+          "name": "Dorcas Atuo",
+          "title": "Senior UK Counselling Manager",
+          "initials": "DA"
+        },
+        {
+          "name": "Ann Nyambura",
+          "title": "Senior UK Counselling Manager",
+          "initials": "AN"
+        },
+        {
+          "name": "Noel Muteti",
+          "title": "Head of USA Student Recruitment",
+          "initials": "NM"
+        }
+      ],
+      "screenshot": "/tmp/browser/uniserv/source-controls/about-counselling-experts.png"
+    }
+  ],
+  "university_filters": [
+    {
+      "index": 0,
+      "before": "All countries\nAustralia\nCanada\nNew Zealand\nUnited Kingdom\nUnited Kingdom / Canada",
+      "panel": "",
+      "screenshot": "/tmp/browser/uniserv/source-controls/universities-filter-0.png",
+      "visibleOptions": []
+    },
+    {
+      "index": 1,
+      "before": "Recommended\nUniversity name: A\u2013Z\nUniversity name: Z\u2013A",
+      "panel": "",
+      "screenshot": "/tmp/browser/uniserv/source-controls/universities-filter-1.png",
+      "visibleOptions": []
+    }
+  ]
+}

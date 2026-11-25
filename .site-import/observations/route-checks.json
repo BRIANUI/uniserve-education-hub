@@ -1,0 +1,58 @@
+{
+  "desktop": {
+    "home": {
+      "title": "Uniserv Education | Study Abroad Guidance",
+      "h1": "A clearer path to studying abroad starts here.",
+      "horizontal_overflow": false
+    },
+    "destinations": {
+      "title": "Study Abroad Destinations | Uniserv Education",
+      "h1": "Choose a destination that supports your goals.",
+      "horizontal_overflow": false
+    },
+    "universities": {
+      "title": "University Partners | Uniserv Education",
+      "h1": "Explore universities across our study destinations.",
+      "horizontal_overflow": false
+    },
+    "events": {
+      "title": "Study Abroad Events | Uniserv Education",
+      "h1": "Meet us, ask questions and plan your next step.",
+      "horizontal_overflow": false
+    },
+    "about": {
+      "title": "About Uniserv Education | Student-Centred Guidance",
+      "h1": "Guidance shaped around the student.",
+      "horizontal_overflow": false
+    }
+  },
+  "mobile": {
+    "home": {
+      "title": "Uniserv Education | Study Abroad Guidance",
+      "h1": "A clearer path to studying abroad starts here.",
+      "horizontal_overflow": false
+    },
+    "destinations": {
+      "title": "Study Abroad Destinations | Uniserv Education",
+      "h1": "Choose a destination that supports your goals.",
+      "horizontal_overflow": false
+    },
+    "universities": {
+      "title": "University Partners | Uniserv Education",
+      "h1": "Explore universities across our study destinations.",
+      "horizontal_overflow": false
+    },
+    "events": {
+      "title": "Study Abroad Events | Uniserv Education",
+      "h1": "Meet us, ask questions and plan your next step.",
+      "horizontal_overflow": false
+    },
+    "about": {
+      "title": "About Uniserv Education | Student-Centred Guidance",
+      "h1": "Guidance shaped around the student.",
+      "horizontal_overflow": false
+    }
+  },
+  "events_counsellor": true,
+  "errors": []
+}
